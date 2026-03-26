@@ -2,11 +2,13 @@ package com.byd.dilink.core.data.di
 
 import android.content.Context
 import androidx.room.Room
-import com.byd.dilink.core.data.dao.MaintenanceCategoryDao
-import com.byd.dilink.core.data.dao.PlaylistEntryDao
-import com.byd.dilink.core.data.dao.ServiceRecordDao
+import com.byd.dilink.core.data.dao.FavoriteLocationDao
+import com.byd.dilink.core.data.dao.MaintenanceDao
+import com.byd.dilink.core.data.dao.ParkingDao
+import com.byd.dilink.core.data.dao.PlaylistDao
 import com.byd.dilink.core.data.dao.VehicleProfileDao
 import com.byd.dilink.core.data.db.DiLinkDatabase
+import com.byd.dilink.core.data.preferences.DiLinkPreferences
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -29,18 +31,27 @@ object DataModule {
     }
 
     @Provides
-    fun provideMaintenanceCategoryDao(db: DiLinkDatabase): MaintenanceCategoryDao =
-        db.maintenanceCategoryDao()
+    fun provideParkingDao(db: DiLinkDatabase): ParkingDao =
+        db.parkingDao()
 
     @Provides
-    fun provideServiceRecordDao(db: DiLinkDatabase): ServiceRecordDao =
-        db.serviceRecordDao()
+    fun provideFavoriteLocationDao(db: DiLinkDatabase): FavoriteLocationDao =
+        db.favoriteLocationDao()
+
+    @Provides
+    fun provideMaintenanceDao(db: DiLinkDatabase): MaintenanceDao =
+        db.maintenanceDao()
 
     @Provides
     fun provideVehicleProfileDao(db: DiLinkDatabase): VehicleProfileDao =
         db.vehicleProfileDao()
 
     @Provides
-    fun providePlaylistEntryDao(db: DiLinkDatabase): PlaylistEntryDao =
-        db.playlistEntryDao()
+    fun providePlaylistDao(db: DiLinkDatabase): PlaylistDao =
+        db.playlistDao()
+
+    @Provides
+    @Singleton
+    fun providePreferences(@ApplicationContext context: Context): DiLinkPreferences =
+        DiLinkPreferences(context)
 }

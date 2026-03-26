@@ -5,24 +5,35 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
-import com.byd.dilink.core.data.db.VehicleProfile
+import com.byd.dilink.core.data.entities.VehicleProfile
 import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface VehicleProfileDao {
 
     @Query("SELECT * FROM vehicle_profile WHERE id = 1")
-    fun getVehicleProfile(): Flow<VehicleProfile?>
+    fun getProfile(): Flow<VehicleProfile?>
 
     @Query("SELECT * FROM vehicle_profile WHERE id = 1")
-    suspend fun getVehicleProfileSync(): VehicleProfile?
+    suspend fun getProfileOnce(): VehicleProfile?
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insert(profile: VehicleProfile)
 
     @Update
     suspend fun update(profile: VehicleProfile)
 
-    @Query("UPDATE vehicle_profile SET currentOdometerKm = :odometer, lastOdometerUpdate = :timestamp WHERE id = 1")
-    suspend fun updateOdometer(odometer: Int, timestamp: Long)
+    @Query("UPDATE vehicle_profile SET current_odometer_km = :odometer, last_odometer_update = :timestamp WHERE id = 1")
+    suspend fun updateOdometerWithTimestamp(odometer: Int, timestamp: Long)
+
+    suspend fun updateOdometer(km: Int) {
+        updateOdometerWithTimestamp(km, System.currentTimeMillis())
+    }
+
+    suspend fun ensureProfileExists() {
+        val existing = getProfileOnce()
+        if (existing == null) {
+            insert(VehicleProfile())
+        }
+    }
 }
