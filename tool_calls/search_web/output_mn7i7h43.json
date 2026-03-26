@@ -1,0 +1,87 @@
+{
+  "images": [],
+  "is_error": false,
+  "is_partial": false,
+  "results": [
+    {
+      "title": "barnhill/AndroidOBD: Android library for reading OBD ... - GitHub",
+      "url": "https://github.com/barnhill/AndroidOBD",
+      "domain": "GitHub",
+      "snippet": "This project offers a developer friendly interface to communicate with ELM 327 OBD devices via BLUETOOTH.",
+      "date": "2019-01-08T00:00:00",
+      "summary": "This project offers a developer friendly interface to communicate with ELM 327 OBD devices via BLUETOOTH.\n### Usage\n...\n```\nimplementation 'com.pnuema.android:obd:1.7.1'\n```\nTo get started you will need to first send a few commands over bluetooth or usb whatever the input stream is that you negotiate with the ELM-327 device.\nConnection and init:\n```\nval MODE_AT = \"AT\"\n//set defaults\ninitPid.mode = MODE_AT\ninitPid.PID = \"D\"\nvar cmd = OBDCommand(initPid).setIgnoreResult(true).run(inputStream, outputStream)\nLog.d(TAG, \"Set defaults sent (\" + initPid.mode + \" \" + initPid.PID + \") Received: \" + cmd.rawResult)\n//resets the ELM327\ninitPid.mode = MODE_AT\ninitPid.PID = \"Z\"\ncmd = OBDCommand(initPid).setIgnoreResult(true).run(inputStream, outputStream)\nLog.d(TAG, \"Reset command sent (\" + initPid.mode + \" \" + initPid.PID + \") Received: \" + cmd.rawResult)\n//extended responses off\ninitPid.mode = MODE_AT\ninitPid.PID = \"E0\"\ncmd = OBDCommand(initPid).setIgnoreResult(true).run(inputStream, outputStream)\nLog.d(TAG, \"Extended Responses Off (\" + initPid.mode + \" \" + initPid.PID + \") Received: \" + cmd.rawResult)\n//line feeds off\ninitPid.mode = MODE_AT\ninitPid.PID = \"L0\"\ncmd = OBDCommand(initPid).setIgnoreResult(true).run(inputStream, outputStream)\nLog.d(TAG, \"Turn Off Line Feeds (\" + initPid.mode + \" \" + initPid.PID + \") Received: \" + cmd.rawResult)\n//printing of spaces off\ninitPid.mode = MODE_AT\ninitPid.PID = \"S0\"\ncmd = OBDCommand(initPid).setIgnoreResult(true).run(inputStream, outputStream)\nLog.d(TAG, \"Printing Spaces Off (\" + initPid.mode + \" \" + initPid.PID + \") Received: \" + cmd.rawResult)\n//headers off\ninitPid.mode = MODE_AT\ninitPid.PID = \"H0\"\ncmd = OBDCommand(initPid).setIgnoreResult(true).run(inputStream, outputStream)\nLog.d(TAG, \"Headers Off (\" + initPid.mode + \" \" + initPid.PID + \") Received: \" + cmd.rawResult)\n//set protocol\ninitPid.mode = \"$MODE_AT SP\"\ninitPid.PID = ObdProtocols.AUTO.value.toString()\ncmd = OBDCommand(initPid).setIgnoreResult(true).run(inputStream, outputStream)\nLog.d(TAG, \"Select Protocol (\" + initPid.mode + \" \" + initPid.PID + \") Received: \" + cmd.rawResult)\n//set timeout for response from the ECU\ninitPid.mode = \"$MODE_AT ST\"\ninitPid.PID = Integer.toHexString(0xFF and ECU_RESPONSE_TIMEOUT)\ncmd = OBDCommand(initPid).setIgnoreResult(true).run(inputStream, outputStream)\n```\nOnce a connection has been established and inited you can send commands and get responses as follows:\nCode:\n```\n//Request MODE 1, PID 0C - RPM\nval pid = PIDUtils.getPid(ObdModes.MODE_01, \"OC\")\nval command = OBDCommand(pid)\ncommand.run(bluetoothSocket.inputStream, bluetoothSocket.outputStream)\nLog.d(\"PID\", \"${pid.description} : ${pid.calculatedResult}\")\nLog.d(\"PID Formatted Result\", command.formattedResult)\n```\n```\n//Clear DTCs - NonPermanent\nval pid = PID(ObdModes.MODE_04) //Clear DTCs\nval command = OBDCommand(pid)\ncommand.run(bluetoothSocket.inputStream, bluetoothSocket.outputStream)\n```\nNote that you do not have to take the raw values and calculate it yourself.\nThe library will run the value through the formula that are specified in the specifications for CAN to get the resulting value.\nThis is available in the\n```\ncalculatedResult\n```\nand\n```\nformattedResult\n```\nfields on the pid after the\n```\npid.run(...)\n```\ncommand finishes.\n### Who do I talk to?\n...\nAndroid library for reading OBD messages from ELM327 based devices\n### Topics"
+    },
+    {
+      "title": "Jetpack Compose UI App Development Toolkit - Android Developers",
+      "url": "https://developer.android.com/compose",
+      "domain": "Android Developers",
+      "snippet": "It simplifies and accelerates UI development on Android. Quickly bring your app to life with less code, powerful tools, and intuitive Kotlin APIs.",
+      "date": null,
+      "summary": "Discover Jetpack Compose, Android's UI app development toolkit and resources that can help accelerate the creation of your app."
+    },
+    {
+      "title": "An attempted listing of all PIDs for BYD cars - GitHub",
+      "url": "https://github.com/loryanstrant/BYD-PID-list",
+      "domain": "github.com",
+      "snippet": "Known, working PIDs and their expressions ; Dolphin, 2023–2025, VOLTAGE, Battery Voltage, 220008 ; Dolphin, 2023–2025, CURRENT, Battery Current, 220009 ...",
+      "date": null,
+      "summary": "Known, working PIDs and their expressions ; Dolphin, 2023–2025, VOLTAGE, Battery Voltage, 220008 ; Dolphin, 2023–2025, CURRENT, Battery Current, 220009 ..."
+    },
+    {
+      "title": "Android Bluetooth connection to ELM327/OBD-II device",
+      "url": "https://stackoverflow.com/questions/57504532/android-bluetooth-connection-to-elm327-obd-ii-device",
+      "domain": "stackoverflow.com",
+      "snippet": "I tried to create a simple Android application to connect to my ELM327 device to get some car diagnostic data. But I wasn't able to set up the ...",
+      "date": "2019-08-15T00:00:00",
+      "summary": ""
+    },
+    {
+      "title": "XML vs Jetpack Compose in 2025? : r/android_devs - Reddit",
+      "url": "https://www.reddit.com/r/android_devs/comments/1lmtcwg/xml_vs_jetpack_compose_in_2025/",
+      "domain": "reddit",
+      "snippet": "We're well into 2025, and Jetpack Compose is hitting hard everywhere in the production apps, but I still see mixed opinions in the Android ...",
+      "date": "2025-06-28T00:00:00",
+      "summary": "XML vs Jetpack Compose in 2025?"
+    },
+    {
+      "title": "BYD battery health report analysis - Facebook",
+      "url": "https://www.facebook.com/groups/1737462746527033/posts/4120274861579131/",
+      "domain": "www.facebook.com",
+      "snippet": "It looks like the SOCE and SOCR is a test to check what the estimated state of charge is vs actual battery state of charge. Since the voltage ...",
+      "date": "2025-10-23T00:00:00",
+      "summary": "It looks like the SOCE and SOCR is a test to check what the estimated state of charge is vs actual battery state of charge.\nSince the voltage ..."
+    },
+    {
+      "title": "eltonvs/kotlin-obd-api: :blue_car - GitHub",
+      "url": "https://github.com/eltonvs/kotlin-obd-api",
+      "domain": "GitHub",
+      "snippet": "A lightweight and developer-driven Kotlin OBD-II (ELM327) library for any Kotlin/JVM project to query and parse OBD commands. Written in pure Kotlin and ...",
+      "date": null,
+      "summary": ""
+    },
+    {
+      "title": "What's New in Jetpack Compose - Android Developers Blog",
+      "url": "https://android-developers.googleblog.com/2025/05/whats-new-in-jetpack-compose.html",
+      "domain": "Android Developers Blog",
+      "snippet": "At Google I/O 2025, we announced a host of features, performance, stability, libraries, and tools updates for Jetpack Compose, ...",
+      "date": "2025-05-20T00:00:00",
+      "summary": "- - **Autofill support** that lets users automatically insert previously entered personal information into text fields.\n- **Auto-sizing text** to smoothly adapt text size to a parent container size.\n- **Visibility tracking ** for when you need high-performance information on a composable's position in its root container, screen, or window.\n- **Animate bounds modifier** for beautiful automatic animations of a Composable's position and size within a LookaheadScope.\n- **Accessibility checks in tests** that let you build a more accessible app UI through automated a11y testing.\n…\n...\nDeveloping adaptive apps across form factors including phones, foldables, tablets, desktop, cars and Android XR is now easier with the latest enhancements to the Compose adaptive layouts library.\nThe stable 1.1 release adds support for predictive back gestures for smoother transitions and pane expansion for more flexible two pane layouts on larger screens.\nFurthermore, the 1.2 (alpha) release adds more flexibility for how panes are displayed, adding strategies for reflowing and levitating.\n*Compose Adaptive Layouts Updates in the Google Play app*\n...\nThe latest stable release includes significant rewrites and improvements to multiple sub-systems including semantics, focus and text optimizations.\nBest of all these are available to you simply by **upgrading your Compose dependency;** no code changes required.\n...\nWe're excited to introduce **Navigation 3**, a new artifact designed to empower you with greater control and simplify complex navigation flows."
+    },
+    {
+      "title": "[PDF] OBDII PID list for Vehicle - HPEVS",
+      "url": "https://www.hpevs.com/Site/images/pdf/obdii/obdii_pid_%20list_vehicle_version.pdf",
+      "domain": "hpevs",
+      "snippet": "SOC %. 0. 100. 1. 0 none. 22. 25AF. A. 0-100/ 0-64. Tachometer. 0. 8000. 1. 0 none. 22 ... OBDII PID list for Vehicle.",
+      "date": null,
+      "summary": "Min Value\nMax Value\nMetric to \nEnglish Scale \nFactor\nMetric to \nEnglish \nOffset\nModule/Header\nOBD Mode\nPID Number\nEquation Structure:                                           \nhigh byte, low byte\nDisplay Range/Raw Data across the CAN BUS                          \nDecimal/ HEX\nBatt Temp\n0\n100\n1\n0\nnone\n22\n22B2\n(B * 256 + A)/100\n0-100/ 0-64\nBrake Command\n0\n100\n1\n0\nnone\n22\n25B3\n(B * 256 +A) / 327.67\n0-100%/ 0-7FFF\nBuild Number\n0\n32767\n1\n0\nnone\n22\n26A4\n(B * 256 + A)\n0-32767/ 0-7FFF\nCapacitor Voltage\n0\n200\n1\n0\nnone\n22\n25A0\n(B * 256 + A)/64\n0-100/0-15000/ 0-3A98\nPrimary Controller Fault\n1\n100\n1\n0\nnone\n22\n22B1\nA\n0-100/ 0-64\nController Serial Number\n0\n4294967295\n1\n0\nnone\n22\n26A1\n(C * 65536) + (B * 256 + A)\n0–4294967295/0–FFFFFFFF\nController Temp Cutback %\n0\n100\n1\n0\nnone\n22\n25AB\n(B * 256 + A) / 40.96\n0 - 100% / 0-1000\n…\n22\n26A0\n(C * 65536) + (B * 256 + A)\n0–4294967295/0–FFFFFFFF\nKSI\n0\n150\n1\n0\nnone\n22\n25A1\n(B * 256 + A)/100\n0-327.67/0-7FFF\nKW Input\n0\n32767\n1\n0\nnone\n22\n22AC\n(B * 256 + A)/100\n0-327.67/ 0-7FFF\nKW Remaining\n0\n32767\n1\n0\nnone\n22\n22A1\n(B * 256 + A)/100\n…\nnone\n22\n25AA\n(B * 256 + A) / 40.96\n0 - 100%/ 0-1000\nMotor Temp C\n-100\n300\n1\n0\nnone\n22\n25A2\n(B * 256 + A)/10\n-100 to 300 °C / FF9C–12C\nMotorspeedA\n0\n8000\n1\n0\nnone\n22\n25A6\n(B * 256 + A)\n0-8000/ 0-1F40\nMotorspeedB\n0\n8000\n1\n0\nnone\n22\n25A7\n(B * 256 + A)\n…\n22\n25AD\n(B * 256 + A) / 40.96\n0 - 100%\nPack Voltage\n0\n600\n1\n0\nnone\n22\n22AB\n(B * 256 + A)/100\n0-32767/ 0-7FFF\nPot2 Raw\n0\n5.5\n1\n0\nnone\n22\n25B5\n(B * 256 + A)/6553.5\n0-5.5V/ 8CCC\nRMS Current\n0\n1000\n1\n0\nnone\n22\n25A8\n(B * 256 + A)/10\n0-1000/ 0-2710\nSerial Number\n0\n4294967295\n1\n0\nnone\n22\n26A1\n(C * 65536) + (B * 256 + A)\n0–4294967295/0–FFFFFFFF\nSOC %\n0\n100\n…\n(B * 256 + A)/6553.5\n0-5.5V/ 0-8CCC\nTime Remaining\n0\n32767\n1\n0\nnone\n22\n22B0\n(B * 256 + A)/10\n0-32767/ 0-7FFF\nUnder Voltage Cutback\n0\n100\n1\n0\nnone\n22\n25AC\n(B * 256 + A) / 40.96\n0 - 100%/ 0-64\nVCL APP VER\n0\n327.67\n1\n0\nnone\n22\n26A5"
+    },
+    {
+      "title": "AndrOBD is a free & open-source Android app for OBD2 diagnostics ...",
+      "url": "https://www.reddit.com/r/CarHacking/comments/u74z8u/androbd_is_a_free_opensource_android_app_for_obd2/",
+      "domain": "AndrOBD is a free & open-source Android app for OBD2 diagnostics, that works with any ELM327 compatible adapter. It also supports plugins and it's my favourite OBD2 app because it's the only good one being FOSS.",
+      "snippet": "AndrOBD is a free & open-source Android app for OBD2 diagnostics, that works with any ELM327 compatible adapter. It also supports plugins.",
+      "date": "2022-04-19T00:00:00",
+      "summary": ""
+    }
+  ]
+}

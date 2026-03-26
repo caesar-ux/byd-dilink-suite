@@ -1,0 +1,7 @@
+{
+  "user_description": "Fetching the BYD PID list from GitHub for accurate OBD-II data",
+  "url": "https://github.com/loryanstrant/BYD-PID-list",
+  "force_fetch": false,
+  "prompt": "Extract all known OBD-II PIDs for BYD cars, especially any for Destroyer 05, Seal 05, or DM-i models. Include the PID codes, descriptions, expressions/formulas, and which models they work with.",
+  "max_length": 40000
+}

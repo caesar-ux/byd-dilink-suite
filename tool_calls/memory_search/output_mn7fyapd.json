@@ -1,0 +1,645 @@
+{
+  "images": [],
+  "is_error": false,
+  "is_partial": false,
+  "system_reminder": "Files have been downloaded to past_session_contexts/. You can read or share them directly from there — no need to copy or move them. See past_session_contexts/sessions/asset_index.md for context about how these files were originally created. 6 past sessions found. See past_session_contexts/sessions/sessions_index.md for an overview. Each session has a conversations.md with full Q&A — read the first ~20 lines for the turn index, then Read with offset/limit to jump to specific turns.",
+  "answer": "Reasoning: The search results provide comprehensive information regarding the user's BYD Destroyer 05, including its specifications (DM-i hybrid system, 1.5L engine, specific battery/range options), the status of their vehicle setup (registration, attempts at official app linking), and their technical approach to customization. It is clear the user has not 'built' a native app for the BYD head unit itself, but rather has been exploring and planning local integrations using external tools (Headunit Reloaded for Android Auto, OBD-II adapters for data, and conceptualizing a custom app project). The user's setup relies on their phone (Xiaomi 15/Infinix) and custom local solutions because the car's Chinese-market head unit lacks native Google services. User Context: The user owns a 2025 BYD Destroyer 05 (DM-i hybrid, also known as Seal 05/Seal 5 DM-i) and is highly technical, preferring local, custom solutions over cloud-dependent ones. They use their phone (Xiaomi 15/Infinix Note 30 Pro) as the primary hub for vehicle data and infotainment connectivity, utilizing Headunit Reloaded for Android Auto and researching OBD-II integration for real-time diagnostics. They have been planning a custom app project for BYD owners but have not yet deployed a custom software feature directly onto the car's head unit. Recommendations: None",
+  "memories": [
+    {
+      "category": "interests.cars_and_phones",
+      "content": "Owned a Xiaomi 15 phone and a BYD Destroyer 05 (2025) and researched using BYD phone/car features and integrations.",
+      "updated_at_date": "2026-02-13"
+    },
+    {
+      "category": "interests.automotive.dm-i_models",
+      "content": "Researched the BYD DM‑i Destroyer 05 (2025).",
+      "updated_at_date": "2026-02-08"
+    },
+    {
+      "category": "interests.in_car_tech",
+      "content": "Asked about BYD Destroyer 05 car electronics, including dashcam power settings and how to make power windows fully close when the switch is raised.",
+      "updated_at_date": "2026-02-15"
+    },
+    {
+      "category": "projects.vehicle.registration",
+      "content": "The user's BYD Destroyer 05 vehicle is now registered under their personal name.",
+      "updated_at_date": "2026-02-20"
+    }
+  ],
+  "query_answers": [
+    {
+      "entry_uuid": "754f5870-d656-4a1c-8184-475e2d72856f",
+      "query": "أستطيع أن أكتب لك خطوات دقيقة لطريقة Headunit Reloaded تناسب سيارتك ووضعك الحالي.\n\nyes please make the whole answer in english",
+      "answer": "Here’s a step‑by‑step way to get Android Auto working on your Chinese‑market BYD Destroyer 05 2025 using Headunit Reloaded (HUR). This does not modify the car’s firmware; it’s just an app running inside DiLink.\n\n\nYour BYD Destroyer 05 2025 with DiLink (Chinese version).  \nYour Xiaomi 15 with Android Auto support and USB cable.\nInternet on the phone or PC to download the APK.  \nA USB stick (FAT32) or any way to move APK files into the car (USB is easiest).\n\n\n\n1. Install / enable Android Auto  \nOn the phone: Settings → Connected devices → Android Auto → make sure it’s enabled.\n\n2. Enable Developer settings in Android Auto (optional but helps with HUR)  \nOpen the Android Auto app on the phone.  \nScroll to the bottom → tap the version number 10 times until “Developer options enabled” appears.  \nIn the 3‑dot menu → Developer settings → make sure “Start head unit server” (or similar) can be enabled when you connect.\n\n3. Turn on:  \nBluetooth,  \nLocation,  \n(Optional) Wi‑Fi if you ever try wir...\n\n... \n3. Open Headunit Reloaded on the car.  \n4. Wait a few seconds until Android Auto appears.  \n\nThen you can:\nUse steering wheel buttons (volume, next/previous) to control media.  \nUse Google Assistant: “Hey Google, navigate to …”, “Play Spotify …”, etc.\n\n\nNot official: This is an unofficial method; it doesn’t flash firmware, but BYD will not support issues related to third‑party apps.\nPerformance: HUR runs on top of DiLink; if it feels laggy, close other apps and avoid heavy background tasks.  \nBattery/heat: Wired Android Auto + charging can heat the phone; if it gets too warm, use a good quality cable and maybe a vent‑mount to cool it.\nSecurity: Only install APKs from trusted sites to avoid malware.  \n\n\n\nIf you send me:\nA photo of your BYD app drawer (all apps on the car screen), and  \nConfirm that you have a working File Manager app there,\n\nI can adapt these steps precisely to your current software version (13.1.22.2403046.1) and point out the exact icons you will tap in your system.",
+      "date": "2026-02-13",
+      "context_uuid": "d27f0ccb-153a-4075-a034-0778e1485b0d",
+      "timestamp": 1771010460571934,
+      "prior_context": [
+        {
+          "query": "وهل حساب BYD تم تفعيله أخيراً أم ما زال فيه مشكلة؟\nstill a problem\nbydautoservice.mea\n10:38 AM (11 hours ago)\nto me\nDear Cust...\n\n...nience, but please be assured that BYD is always committed to providing customers with the best quality products and services",
+          "answer": "الوضع واضح الآن: سيارتك نسخة صينية مستوردة موازية، وBYD أكّدوا رسميًا أن ربطها بسيرفرات الشرق الأوسط (العراق) غير ممكن حاليًا بسبب اختلاف الهاردوير والشبكة، لذلك حساب BYD لن يعمل عندك (لا Remote AC ولا فتح من الجوال).  \nتطبيق BYD الرسمي على Xiaomi 15...\n\n...أمثل في رحلاتك اليومية والـ 400 كم بين أربيل وبغداد.  \n\nلو تحب، أقدر أعمل لك “باقة” إعداد شخصية:  \nما هي التطبيقات التي أنصحك تثبّتها على Xiaomi 15،  \nوأي إعدادات في شاشة BYD تغيّرها،  \nبحيث تعوّض 80–90٪ من فائدة حساب BYD الرسمي رغم أن ربطه غير ممكن.",
+          "entry_uuid": "682c607a-3bf4-4230-acea-9c42bb91d163",
+          "timestamp": 1771009607596712
+        },
+        {
+          "query": "i have a friend in china can use his phone number to connect the car what do you think?",
+          "answer": "تقنيًا الفكرة ممكنة، لكن لازم تفكّر في 3 نقاط مهمة قبل تعملها:\nحتى لو استخدمت رقم صيني لصديقك:\nالسيارة ستُسجَّل في حساب BYD مربوط برقم صديـقك، وليس برقمك أنت.  \nكل إشعارات السيارة، أكواد التحقق، واسترجاع الحساب ستذهب إلى جوال صديقك، وليس لك.  \nمن ناح...\n\n...ن إن سألتني عن الخيار الأكثر راحة وأمانًا لك على المدى الطويل:  \nاستمر باستغلال السيارة كمنظومة Offline + Android Auto، واعتبر حساب BYD خدمة “Nice to have” وليست ضرورية، خصوصًا مع اختلاف الهاردوير وغياب الدعم الرسمي في العراق كما أكدوا لك في الإيميل.",
+          "entry_uuid": "b93ae9e9-2a7b-4030-84c6-ac4564fdaf25",
+          "timestamp": 1771010026539032
+        },
+        {
+          "query": "Android Auto is it possible?",
+          "answer": "For your specific case (Chinese‑market Destroyer 05 2025), official Android Auto is not available in the stock Chinese DiLink system, لكن يوجد حل عملي عبر تطبيق وسيط داخل الشاشة.\nسيارات BYD الموجهة للأسواق العالمية (Atto 3, Dolphin, Seal…) تدعم Andro...\n\n...أخرى بنفسك، لأن استرجاع DiLink الصيني في حال الخطأ ليس سهلاً.  \n\nلو قلت لي بالضبط:  \nهل عندك الآن متجر APK / متصفح على شاشة السيارة؟  \nوهل عندك USB‑A data port يعمل؟  \n\nأستطيع أن أكتب لك خطوات دقيقة لطريقة Headunit Reloaded تناسب سيارتك ووضعك الحالي.",
+          "entry_uuid": "081dc9f2-b4af-43e6-bd96-7bfe86b9f827",
+          "timestamp": 1771010157907551
+        }
+      ],
+      "following_context": [
+        {
+          "query": "which one",
+          "answer": "You should choose the first one:\n“Headunit Reloaded Trial for An…” (Maps & Navigation, ~8.1 MB).\n\nThat is the correct Headunit Reloaded app (trial version) which can act as the Android Auto head unit on your BYD screen.  \n\nThe “Car Launcher” and “Xena – Group Voice Party” apps are unrelated and not needed for Android Auto.",
+          "entry_uuid": "da5f4563-c4aa-4e3b-ad58-2a9f694617ed",
+          "timestamp": 1771024311645597
+        },
+        {
+          "query": "what now",
+          "answer": "That popup is normal.  \n\n1. Tap OK (not “Ignore”).  \nThis gives HUR permission to adjust overlays and hotspot so incoming calls don’t cover Android Auto.  \n\n2. After you press OK:  \nIf it opens a Settings page with a toggle for “Allow modify system s...\n\n...nto the car’s USB port.  \nAccept any prompts on the phone (“Allow Android Auto”, “Always allow on this car”).  \n\nTell me what you see next on the BYD screen (Android Auto UI, black screen, or waiting message) and I’ll guide you through the next step.",
+          "entry_uuid": "d5ff218a-f9fb-4268-a10f-3e69f4b0df57",
+          "timestamp": 1771024895650702
+        },
+        {
+          "query": "now what",
+          "answer": "Perfect – Android Auto is already running on your BYD screen (first photo with Google Maps + YouTube Music).  \n\nFrom now on you just need a simple routine:\n1. Start the car.  \n2. Plug your Xiaomi 15 into the USB port.  \n3. Open Headunit Reloaded on t...\n\n...he phone asks for permission, always choose Allow / Always allow on this car.\n\nIf you want, next I can help you fine‑tune:\nAudio levels (to fix low Android Auto volume).  \nWhich apps show in Android Auto and which notifications you see while driving.",
+          "entry_uuid": "f4494162-5734-4a7e-a3f8-c11c7e67748d",
+          "timestamp": 1771025359999212
+        }
+      ],
+      "url": "https://perplexity.ai/search/754f5870-d656-4a1c-8184-475e2d72856f"
+    },
+    {
+      "entry_uuid": "d43b5485-b589-49f8-bae1-6c72962d2b12",
+      "query": "As a professional specialist I want you to dive deeply in the all available resources to find out everything about byd destroyer 05 and hidden features and present them to me",
+      "answer": "You can definitely go deep, but it will be a long project, not one message. Here’s a structured map of what’s available now and where the “hidden” stuff lives for the Destroyer 05 DM‑i.\n\n\nDM‑i plug‑in hybrid with 1.5L engine, 8.3 or 18.3 kWh Blade battery, total output about 180–197 hp, 0–100 km/h in roughly 7.9–7.3 s.   \nEV range ~55–120 km depending on pack; total range can exceed 1,200 km with full fuel and charge.   \nDiLink 4.x/5.x infotainment with 12.8\" or 15.6\" rotating screen, OTA updates, 4G connectivity, voice assistant, NFC digital key on some trims, and DiPilot ADAS (ACC, lane‑keeping, AEB, 360° cameras).   \n\nThese basics define the “ceiling” for hidden features: many tricks are about exposing functions already supported by this hardware and software.\n\n\n\nFrom Chinese owner forums, Douyin clips, and Q&A posts: \nDashcam extras: the factory driving recorder can log not only video but also status flags (gear, handbrake, seat‑belt, speed) overlaid in the recording; some owners o...\n\n...able, we can look at specific tweaks seen in Chinese posts (auto‑up windows, maybe DRL behavior) and see if your ECUs expose those bits in a safe way; that will be case‑by‑case, and we’ll be conservative.   \n\nBecause there’s a lot of material and your car is slightly different (imported, new firmware 13.1.22.2508170.1), the most productive next step is to pick one axis to start with.\n\nIf you want the maximum “professional deep dive” outcome, I suggest:\nStep 1: when the vLinker arrives, we get Car Scanner logging working and grab a 20–30 minute city+highway run; you send me the CSV and we start building a DM‑i analysis notebook in Python.   \nStep 2 (in parallel): we open a fresh thread just for DiLink sideload on your exact version and iterate until we have at least: browser, YouTube, and one nav app working reliably.   \n\nIf you tell me which of those two you want to tackle first—DM‑i data analysis or DiLink app expansion—I’ll go deep on that path and design you a step‑by‑step workflow.",
+      "date": "2026-02-20",
+      "context_uuid": "d25efc27-a3e6-4d7c-a540-15b412d97bb1",
+      "timestamp": 1771612420612476,
+      "prior_context": [
+        {
+          "query": "What to choose",
+          "answer": "For you, ignore the splitters and generic tools; pick one proper scanner.\n\nFrom the images, the best choices are:\n\n1. OBDLink MX (Bluetooth) – in the eBay screenshot.  \nPros: very reliable, fast, works great with Android apps, safe to leave plugged i...\n\n... \nYou’d then use a USB‑C OTG adapter to connect it to your Xiaomi.\n\nSo:  \nFirst choice: OBDLink MX (Bluetooth) from the second screenshot.   \nBackup if shipping/cost is a problem: Vgate vLinker FS USB from the AliExpress “Deep search results” image. ",
+          "entry_uuid": "3509bd07-1473-4f97-a9b3-1c45e9def336",
+          "timestamp": 1771611836145030
+        },
+        {
+          "query": "This one",
+          "answer": "Yes, this Vgate vLinker FS USB is a good choice for your plan.   \n\nWith it you will need:  \nA small USB‑A → USB‑C OTG adapter to plug it into your Xiaomi 15.   \nAn app like Car Scanner or Torque configured for USB connection.   \n\nOnce it arrives, tell me and we’ll do step‑by‑step: where to plug it in the Destroyer 05, how to set up Car Scanner, and how to export logs for Python.",
+          "entry_uuid": "e0fbf609-feb9-4e0b-9b91-46559c5ebf60",
+          "timestamp": 1771611995612356
+        },
+        {
+          "query": "What features does it have",
+          "answer": "That Vgate vLinker FS USB is a high‑quality, fast USB OBD‑II interface with these main features:  \nFull OBD‑II support: Works with all standard OBD‑II protocols, so it can talk to your Destroyer 05’s ECUs for live data and DTCs.   \nHigh‑speed, stable...\n\n...good build quality, stable operation, and firmware that avoids random disconnects typical of cheap adapters.   \n\nFor your use (Xiaomi 15 via OTG + logging for Python analysis), it’s more than capable and should give you clean, fast data from the BYD.",
+          "entry_uuid": "28e1e60c-ec93-48de-9384-3445e3239a08",
+          "timestamp": 1771612066704476
+        }
+      ],
+      "following_context": [
+        {
+          "query": "How to update DiPilot software on Destroyer 05",
+          "answer": "On a grey‑import Destroyer 05 like yours, you cannot manually update DiPilot yourself; updates come only with full car OTA/software packages that are region‑locked to China and started by BYD.   \nBYD pushes OTA updates (for DiLink + DiPilot) in batch...\n\n...ess, which is rare for grey imports.   \n\nSo for now, treat your current DiPilot as fixed, and focus on getting the most out of it (correct activation of ACC/LKA/AEB, good camera use) plus adding your own tools with the OBD adapter and head‑unit mods.",
+          "entry_uuid": "3f8f269b-6315-4650-91dd-a8c0bdf397e3",
+          "timestamp": 1771614849144771
+        },
+        {
+          "query": "What is this",
+          "answer": "That’s the DiLink voice assistant, called “小燕” (Xiao Yan, “Little Swallow”).   \n\nIt’s BYD’s built‑in smart voice helper powered by iFlyTek (科大讯飞), similar to Siri/Alexa.  \nCar controls: “打开空调” (open AC), “调低温度” (lower temp), “开主驾车窗” (open driver wind...\n\n...spec, Xiao Yan should work fine even outside China (it’s local processing), though it won’t connect to cloud services for things like weather or traffic updates.   \n\nTry saying “你好，小燕，打开空调” (“Hello Xiao Yan, turn on AC”) and let me know what happens.",
+          "entry_uuid": "32510bea-f6ce-4b27-9b00-92694391475c",
+          "timestamp": 1771636915409117
+        }
+      ],
+      "url": "https://perplexity.ai/search/d43b5485-b589-49f8-bae1-6c72962d2b12"
+    },
+    {
+      "entry_uuid": "18f897cf-df09-4780-ba57-e612e6cf7389",
+      "query": "You said I’d treat BYD’s cloud/app features as unavailable and instead focus on local solutions (head‑unit mods, OBD + third‑party apps, etc.) for anything you wanted from the BYD app. \nHelp me do it",
+      "answer": "You’re right to pivot; using local solutions is the realistic path. I’ll outline a concrete plan you can start on today.\n\n\n\nThink of BYD app features you cared about and what can replace them locally:\nLock/unlock, status → OBD + third‑party app dashboards, plus key fob as usual.   \nTrip logs, fuel/EV usage → OBD apps with logging (Car Scanner, Torque, OBD Auto Doctor).   \nNavigation / online services → Sideloaded apps (Google Maps, Waze, YouTube) on head unit or via Android Auto.   \n\nI’ll assume you mainly want: battery/engine data, better navigation/media, and some “live info” on the phone.\n\n\n\nFor a China‑market BYD PHEV like your Destroyer 05, choose a solid Bluetooth dongle; avoid cheap ELM327 clones.\n\nGood options:  \nOBDLink MX+ – best overall; stable, fast, works well with advanced apps and EVs.   \nVeepeak OBDCheck BLE – cheaper but still reliable, works nicely with Torque and Car Scanner.   \n\nGet a Bluetooth Low Energy (BLE) version so it doesn’t drain your phone and keeps a stab...\n\n...patibility.   \n3. Test with a simple browser or file manager first; once that works, add Maps, YouTube, etc.   \n\nIf you want, we can do this step‑by‑step in a fresh thread focused only on sideloading for 13.1.22.2508170.1, using specific APK versions from the typical BYD tutorials. \n\n\n\nOnce set up, your “replacement stack” looks like this:\n\n BYD cloud feature  Local replacement \n    \n Remote status / some data  OBDLink MX+ or Veepeak + Car Scanner / Torque dashboards on phone.  \n Trip and consumption logs  OBD app trip logging + export to CSV.  \n Navigation from app  Google Maps / Waze sideloaded on head unit or via Android Auto.  \n Media (songs, videos)  YouTube / Spotify / others sideloaded or via phone.  \n\n\n\nIf you tell me:\nWhich OBD dongle you’re willing to buy, and  \nWhether you prefer USB‑only sideload or are OK using ADB from your laptop,\n\nI can write you an exact sequence: “do this, tap here, install these three apps first,” tailored to your current firmware and your Xiaomi 15.",
+      "date": "2026-02-20",
+      "context_uuid": "d25efc27-a3e6-4d7c-a540-15b412d97bb1",
+      "timestamp": 1771598410671278,
+      "prior_context": [
+        {
+          "query": "؟",
+          "answer": "The agent has finished and is just asking you to rate the service.   \nThe message says: “Happy New Year, please give us a rating, thank you.”  \nBelow you see “整体服务评价” = “Overall service evaluation” with three options:  \n非常满意 = Very satisfied  \n满意 = Satisfied  \n不满意 = Not satisfied  \n\nYou can tap any rating you feel is fair, then you are done with this chat.",
+          "entry_uuid": "471e995e-1f62-427c-acff-8b219fe3e18e",
+          "timestamp": 1771598194390548
+        },
+        {
+          "query": "Explain",
+          "answer": "The agent sent you a step‑by‑step picture guide showing where the “Owner verification / Personal vehicle” menu is in the BYD app.   \n\nFrom left to right:  \n\n1. Screen 1 (Home/My page)  \nTap the section marked “我的车 / 车主认证” (My car / Owner verification...\n\n...r from their previous messages: even if you complete these steps, remote app control will still not work outside mainland China, and to actually change the registered owner in China you would still need all documents from the original Chinese owner. ",
+          "entry_uuid": "1ea103b2-6c6c-4471-8677-e8f262c261b7",
+          "timestamp": 1771598250799153
+        },
+        {
+          "query": "I think it's impossible to continue? \nWhat do you think?",
+          "answer": "You’re right: in practice it’s not feasible to continue toward full BYD‑app control for this car.  \n\nFrom what the agent told you:  \nThe car is a China‑version, and app functions (especially remote control) only work inside mainland China due to netw...\n\n...ible unless you somehow work with the original Chinese owner inside China. I’d treat BYD’s cloud/app features as unavailable and instead focus on local solutions (head‑unit mods, OBD + third‑party apps, etc.) for anything you wanted from the BYD app.",
+          "entry_uuid": "7641dae4-1ed9-4f31-b8e2-579f1abe8f8f",
+          "timestamp": 1771598329285897
+        }
+      ],
+      "following_context": [
+        {
+          "query": "What about using python with my byd destroyer 05",
+          "answer": "You can’t run Python directly on the BYD head unit, but you can use Python on your laptop or a small computer as a “companion brain” for the Destroyer 05.  \n\nWith the right hardware, Python can:\nRead live data (SOC, temperatures, engine load, DTCs) v...\n\n...ve you a minimal, working Python script tailored to that platform (including COM port detection) and a CSV schema for your Destroyer 05.  \n3. After you collect a trip, you can send me a sample of the CSV and I’ll help you build analysis/plots on top.",
+          "entry_uuid": "243572c3-babf-43eb-8a4f-454d156a12df",
+          "timestamp": 1771609823410891
+        },
+        {
+          "query": "I found this on setting",
+          "answer": "That’s exactly the OTG setting we need.   \n\nBefore you use a USB OBD adapter with your Xiaomi 15:\n\n1. Go to this OTG screen.  \n2. Turn the switch ON (it will auto‑turn‑off after 10 minutes idle).   \n3. Then plug in your OBD adapter via the USB‑C OTG cable; when Android asks which app to use, choose Car Scanner (or your OBD app) and allow access.   \n\nOnce you have the USB OBD dongle, we can walk through the exact Car Scanner setup screens next.",
+          "entry_uuid": "5a4f105b-d1ef-4501-804e-978722751db5",
+          "timestamp": 1771610708844439
+        }
+      ],
+      "url": "https://perplexity.ai/search/18f897cf-df09-4780-ba57-e612e6cf7389"
+    },
+    {
+      "entry_uuid": "abbadbf8-2f62-4402-a49d-4f78dc586862",
+      "query": "اريد اعرف كل شي عن سيارتي \nBYD DM-i destroyer 05 2025\nهل هناك رقم معين او كود تحتاجه لمعرفة التفاصيل اخبرني لازودك اذا تحتاجه",
+      "answer": "أقدر أشرح لك سيارتك Destroyer 05 DM‑i 2025 بالكامل: المحرك، البطارية، المدى، استهلاك البنزين، التجهيزات، وأنواع الفئات، لكن لو أعطيتني رقم الهيكل VIN أقدر أضبط لك التفاصيل الدقيقة حسب سيارتك أنت بالذات. \n\nسيارتك BYD Destroyer 05 DM‑i 2025 هي سيدان هجينة قابلة للشحن (Plug‑in Hybrid) بنظام DM‑i، فيها محرك بنزين 1.5 لتر مع محرك كهربائي أمامي، وقير E‑CVT.   \nتتوفر عادة بنسختين للبطارية: بطارية صغيرة 8.3 kWh بمدى كهربائي حوالي 55 كم NEDC، وبطارية أكبر 18.3 kWh بمدى حوالي 120 كم NEDC، وكلاهما يستخدم Blade Battery من نوع LFP.   \n\nلو قلت لي: هل سيارتك فئة 55 km أو 120 km (يكون مكتوب على الكتالوج أو إعلان المعرض)، أقدر أخصص الشرح أكثر لاستخدامك اليومي.   \nالمحرك البنزين: 1.5 لتر، 4 سلندر، حوالي 110 حصان، نسبة انضغاط عالية 15.5، مع تقنية VVT وكفاءة حرارية تقارب 43٪.   \nالمحرك الكهربائي: أمامي، بقوة تقريبية 132 kW (حوالي 180 حصان) وعزم 316 نيوتن متر.   \nالنظام الهجين يعطي تسارع تقريبًا 0–100 كم/س في حوالي 7.5–7.9 ثانية، وسرعة قصوى تقريبًا 185 كم/س.   \nاستهلاك البنزين في وضع الهجين منخفض جدًا؛ حوا...\n\n...ة من الفولاذ عالي الصلابة في الهيكل.   \nنظام الترفيه DiLink مع شاشة دوّارة (غالبًا 12.8 إنش أو 15.6 إنش حسب الفئة) تدعم 4G و OTA وصوتيات جيدة، بالإضافة إلى عداد رقمي 8.8 إنش أمام السائق.   \nمزايا مساعدة السائق المتقدمة (DiPilot) في الفئات الأعلى قد تشمل: مثبت سرعة متكيف، تحذير وخروج عن المسار، فرامل طوارئ تلقائية، وكاميرات 360 درجة.   \nمفاتيح الذكاء: ريموت ذكي، مفتاح بلوتوث في الموبايل، وكارت NFC تفتحه من المراية وتشغّل السيارة بوضعه في منطقة معيّنة في الكونسول الوسطي.   \n\n\n\nلكي أشرح لك كل شيء عن سيارتك أنت تحديدًا (الفئة، البطارية، التجهيزات الموجودة/غير الموجودة، وما هي الخيارات المتاحة في السوفتوير):\n\n1. أرسل لي رقم الهيكل VIN المكوَّن من 17 خانة (مثل LC0C7…)، يظهر على الزجاج الأمامي من جهة السائق أو في الاستمارة.   \n2. أو صِف لي ما مكتوب في ورقة المواصفات من المعرض (مثلاً: 55km Luxury أو 120km Flagship).   \n\nبعدها أقدر أعمل لك قائمة بسيطة بالمميزات الموجودة في سيارتك واحدة‑واحدة، مع نصائح استخدام يومية خاصة بوضعك في أربيل (الشحن، البنزين، أي Mode تستخدمه، وكيف تحافظ على البطارية). ",
+      "date": "2026-02-02",
+      "context_uuid": "2d809485-81b8-4576-9e70-60a641ed3936",
+      "timestamp": 1770020886130438,
+      "following_context": [
+        {
+          "query": "ليس لدي الكتالوج والمعرض غير معروف لدي\nكيف احصل على معلومات دقيقة وتخص سيارتي حصرا وليس بشكل عام",
+          "answer": "أدق طريقة تعرف فيها كل شيء عن سيارتك أنت بالضبط (مش مواصفات عامة) هي استخدام رقم الهيكل VIN مع مواقع مخصصة لسيارات الصين + الاحتفاظ بنسخة إلكترونية من دليل مالك BYD.   \n\nرقم الهيكل هو المفتاح الذي يربط سيارتك بقاعدة بيانات المصنع، ويعطيك: سنة الصنع، ...\n\n...الة واحدة مفصلة أشرح فيها:  \nمواصفات سيارتك أنت بالضبط،  \nما هي المزايا الموجودة (أوتو بارك، ACC، كاميرا 360… إلخ) وما الذي لا يوجد،  \nأفضل طريقة لاستخدامها يوميًا في أربيل (الشحن، البنزين، الأنماط) حسب ما شرحناه سابقًا في أسئلتك عن الشحن والبطارية. ",
+          "entry_uuid": "7b5ae19d-619d-4be6-9df8-4d51565fef16",
+          "timestamp": 1770021056207301
+        },
+        {
+          "query": "lc0C76C42S0519862",
+          "answer": "هذا رقم هيكل صحيح، وينتمي فعلاً لعائلة BYD Seal/Destroyer 05 موديل 2025، لكن بدون دخول موقع مختص وتشغيله على قاعدة بياناتهم ما أقدر أطلع “ملف المصنع” التفصيلي لسيارتك من هنا مباشرة.   \nالبداية LC0 تؤكد أنه مصنع BYD في الصين ومخصّص للتصدير.   \nالمقطع ...\n\n...).   \n\nإذا تحب أن أبسطها أكثر، قل لي فقط بعد الفحص:  \nهل ظهر في التقرير 55km أم 120km؟  \nوما اسم الفئة (Standard / Luxury / Flagship أو Honor / Deluxe…)؟  \n\nوبناءً على هذين السطرين سأشرح لك سيارتك “بالتفصيل الممل” لكن خاصة برقم هيكلك هذا، بدون تعميم.",
+          "entry_uuid": "9f60b3e0-1eb7-49bd-9f91-67d4d0cc16c3",
+          "timestamp": 1770021167565336
+        },
+        {
+          "query": "كيف افعل تثبيت السرعة",
+          "answer": "تثبيت السرعة في سيارات BYD DM‑i مثل Destroyer 05 يكون من أزرار المقود (الجهة اليسرى غالبًا)، وطريقته عمليًا كالتالي:   \nاربط الحزام، وشغّل السيارة، وامشِ على طريق مفتوح بسرعة فوق 30–40 كم/س (تثبيت السرعة لا يعمل عادة تحت سرعة معينة).   \nإذا عندك نظام...\n\n...ك عادةً تغيير مسافة المتابعة من زر صغير برمز سيارة + خطوط أمامها؛ كل ضغطة تغيّر المسافة بينك وبين السيارة التي أمامك.   \n\nلو ترسل لي صورة واضحة للمقود (الجهة اليسرى بالأخص)، أشرح لك على نفس الصورة أي زر هو تشغيل، أي زر Set، وأي زر Resume خطوة بخطوة. ",
+          "entry_uuid": "0667000c-33bc-4e42-9e5c-880457360acd",
+          "timestamp": 1770023569054932
+        }
+      ],
+      "url": "https://perplexity.ai/search/abbadbf8-2f62-4402-a49d-4f78dc586862"
+    },
+    {
+      "entry_uuid": "cfc9a71c-fd25-481a-9464-7516a0ecf863",
+      "query": "هل تستطيع ان تعرف كم حصان تولد هذه السيارة بهذا الرقم",
+      "answer": "سيارتك من فئة BYD Destroyer 05 DM‑i بمحرك 1.5 لتر مع منظومة DM‑i، وهذا الموديل يأتي بنسختين رئيسيتين من القوة:   \nنسخة بطارية 8.3 kWh (مدى 55 كم تقريبًا): القدرة الكلية حوالي 180 حصان (132 kW) وعزم 316 نيوتن متر.   \nنسخة بطارية 18.3 kWh (مدى 120 كم تقريبًا): القدرة الكلية حوالي 197 حصان (145 kW) وعزم 325 نيوتن متر.   \n\nمن رقم الـVIN وحده أستطيع تحديد أنك على منصة Destroyer/Qin DM‑i بمحرك 1.5 وDM‑i، لكن لا أستطيع تأكيد هل فئتك 55 km أم 120 km؛ لذلك لا أقدر أجزم هل هي 180 حصان أو 197 حصان إلا إذا عرفت منا مدى الـEV أو سعة البطارية من ورقة المواصفات/الموقع الذي يفحص الـVIN. ",
+      "date": "2026-02-03",
+      "context_uuid": "2d809485-81b8-4576-9e70-60a641ed3936",
+      "timestamp": 1770116980063755,
+      "prior_context": [
+        {
+          "query": "هل تحتوي على خاصية شحن الموبايل wireless",
+          "answer": "بعض فئات BYD Destroyer 05 فيها شحن موبايل لاسلكي، لكن ليس كل الفئات؛ لذلك سيارتك قد يكون فيها أو لا حسب الـ trim.   \nفي الإعلانات العربية عن Destroyer 05 DM‑i 2025 يُذكر صراحة وجود Wireless Charger على الكونسول الوسطي لبعض الفئات (مثل Premium / Disti...\n\n...م Wireless charging أو Phone charging لتفعيله/إيقافه؛ تفقد إعدادات السيارة في الشاشة.   \n\nلو أرسلت لي صورة من الكونسول الوسطي (منطقة أمام النوب/الجير وأسفل الشاشة)، أستطيع أن أقول لك مباشرة: هل يوجد شحن لاسلكي في سيارتك أم لا، وأين تضع الهاتف بالضبط.",
+          "entry_uuid": "77283efa-8d8f-48bf-b129-ab62f64ef070",
+          "timestamp": 1770106389031892
+        },
+        {
+          "query": "هذه",
+          "answer": "من الصورة يظهر أنها منصة عادية مطاطية للتخزين فوق حاملي الأكواب وليست شاحن لاسلكي؛ لا أرى أي رمز شحن (⚡ أو هاتف) أو فريم خاص بالشحن.  \nغالبًا فئتك من Destroyer 05 DM‑i لا تحتوي على خاصية الشحن اللاسلكي للموبايل، ويمكنك التأكد نهائيًا بوضع هاتف يدعم wireless charging هناك ومراقبة أيقونة البطارية؛ إذا لم يتغيّر شيء فليس هناك شحن لاسلكي مدمج.",
+          "entry_uuid": "dd073838-2935-4bd8-abb2-83101c6396e6",
+          "timestamp": 1770106538571820
+        },
+        {
+          "query": "ماهو رقم vin\nالذي زودتك به مسبقا",
+          "answer": "رقم الـVIN الذي زوَّدتني به سابقًا هو:  \n\nLC0C76C42S0519862.",
+          "entry_uuid": "6ec2a3a5-544a-4948-be0d-34d2f0b2e05e",
+          "timestamp": 1770116938796110
+        }
+      ],
+      "following_context": [
+        {
+          "query": "هل 180 حصان قوية جدا",
+          "answer": "180 حصان في سيارتك يعتبر قوي جدًا لسيارة سيدان عائلية هايبرد مثل Destroyer 05، خصوصًا أن العزم الكهربائي فوري.   \nتسارع 0–100 كم/س حوالي 7.5–8 ثوانٍ تقريبًا، وهذا أسرع من معظم سيارات 1.6–2.0 بنزين العادية.   \nالعزم (حوالي 316 نيوتن متر) يعطيك سحب قوي...\n\n...السريعة في أربيل – دهوك – سليمانية، هذه القوة أكثر من كافية للتجاوز بأمان إذا استخدمت وضع Sport عند الحاجة.   \n\nإذا كنت تقود بهدوء في وضع ECO وHEV ستشعر أن السيارة ناعمة واقتصادية، لكن متى ما ضغطت الدعسة أو بدلت Sport ستظهر قوة الـ180 حصان بشكل واضح.",
+          "entry_uuid": "5e3a2580-9953-4bf2-b9a5-c286f14cd086",
+          "timestamp": 1770117463424535
+        },
+        {
+          "query": "سافر بها إلى بغداد حوالي 400كم\nماهو افضل ضبط",
+          "answer": "لرحلة أربيل–بغداد 400 كم سيارتك ممتازة لها؛ اضبطها هكذا لتأخذ أقل بنزين وأريح قيادة:   \nاشحن البطارية قدر ما تقدر (لو حتى 50–80٪) واملأ التانكي بنزين جيد.   \nاضبط ضغط الإطارات على القيمة المكتوبة على الملصق في الباب (عادةً 2.4–2.5 بار والسيارة باردة)...\n\n...ي 3.5–4.5 لتر/100 كم مكافئ على رحلة ثابتة إذا كان الجو والطرق جيدة، يعني تقريبًا 15–20 لتر بنزين للـ400 كم إضافة إلى جزء من الكهرباء.   \n\nلو أحببت بعد الرحلة أستطيع تحليل لك صورة عدّاد الاستهلاك مثل السابقة وأقول لك هل وضعك ممتاز أو يمكن تحسينه أكثر.",
+          "entry_uuid": "5310581c-28b2-4d0d-8fa3-b4b7db74ff83",
+          "timestamp": 1770117567238015
+        },
+        {
+          "query": "هل استطيع التغيير بين \neco/normal/sport\nوهي تسير",
+          "answer": "نعم، تقدر تغيّر بين ECO / Normal / Sport والسيارة تمشي بدون مشكلة، النظام مصمم لهذا الشيء.   \nفقط تجنّب تغيير النمط وأنت تضغط بنزين بقوة أو في منعطف حاد؛ الأفضل تخفف الدعسة لحظة، تغيّر النمط، ثم تكمل.   \nستلاحظ مباشرة فرق استجابة الدعسة واستخدام المحرك/الكهرباء بعد تغيير النمط (Sport أنشط، ECO أهدأ وأوفر). ",
+          "entry_uuid": "2b6cc06d-65d8-4a40-a0d5-bb71746a7b64",
+          "timestamp": 1770117710976828
+        }
+      ],
+      "url": "https://perplexity.ai/search/cfc9a71c-fd25-481a-9464-7516a0ecf863"
+    },
+    {
+      "entry_uuid": "d40eb3ac-bfab-42e1-8471-0475db594495",
+      "query": "how to make full usefulness of my phone xiaomi 15 and my car byd destroyer 05 2025",
+      "answer": "You can turn the combo Xiaomi 15 + BYD Destroyer 05 into a very powerful setup in three main areas: connectivity while driving, remote control when parked, and NFC/digital‑key tricks.\nXiaomi 15 supports Android Auto (wired and often wireless).\nOn the phone: Settings → More connectivity options → Android Auto → Connect a vehicle → follow steps.\nIn the car:  \nMake sure Bluetooth and Wi‑Fi are on.  \nOn the BYD screen, open Android Auto from the apps list and pair when prompted.\nUse it for:  \nGoogle Maps / Waze navigation with traffic.  \nSpotify/YouTube Music and podcasts with steering‑wheel control.  \nWhatsApp/Telegram voice messages via Google Assistant, so you keep hands on the wheel.\nInstall the BYD app / MY BYD / BYD Auto for your region (BYD Iraq / Middle East).\nBind your Destroyer 05 to the app (VIN + QR code on the car, كما حاولت سابقًا).  \nأهم الاستخدامات من Xiaomi 15:  \nقفل/فتح الأبواب، ووميض الأضواء/البوق للعثور على السيارة في المواقف.\nتشغيل أو إيقاف المكيّف عن بُعد وضبط الحرارة...\n\n...لأصلي لفتح وتشغيل السيارة من المرآة / الكونسول، والهاتف للـ Android Auto والـ BYD app.  \nإبقاء NFC مفعلاً على Xiaomi لاستخدامه لقراءة أي ملصقات NFC في السيارة أو أتمتة مهام (مثلاً لصق Tag في البيت يشغّل لك وضع “Car mode” ويشغّل البلوتوث وGPS والـHotspot بمجرد لمسة).  \nقبل ركوب السيارة:  \nمن Xiaomi افتح BYD app واضبط المكيّف مسبقاً في الصيف أو الشتاء.\nعند الدخول:  \nالهاتف في الشاحن أو الـNFC pad، البلوتوث شغّال.  \nافتح Android Auto مباشرة للخرائط والموسيقى.  \nأثناء القيادة:  \nاستخدم أزرار المقود (Mode, Volume, Next/Prev) للتحكم في صوت Android Auto بدون لمس الشاشة.  \nفعّل مساعد المسار والكروز على الطرق الطويلة، واترك المكالمات والرسائل تمر عبر Google Assistant.  \nبعد إيقاف السيارة:  \nتحقق من مدى البطارية/البنزين في التطبيق، وجدولة الشحن إذا كانت عندك محطة قريبة.  \n\nلو كتبت لي بالضبط:  \nهل Android Auto عندك يعمل حالياً سلكي أم لاسلكي؟  \nوهل حساب BYD تم تفعيله أخيراً أم ما زال فيه مشكلة؟  \n\nأقدر أضع لك خطة إعداد خطوة‑بخطوة خاصة بوضعك (بغداد/أربيل، إنترنت الموبايل، رحلات المستشفى والعيادة).",
+      "date": "2026-02-13",
+      "context_uuid": "d27f0ccb-153a-4075-a034-0778e1485b0d",
+      "timestamp": 1771009246151853,
+      "prior_context": [
+        {
+          "query": "نعم اشرح لي",
+          "answer": "هذا الوضع اسمه Acceleration Timer وهو مجرد أداة قياس، لا يضيف قوة جديدة للمحرك، فقط يحسب زمن التسارع.\nعندما تفعِّله، العدّاد في الوسط يبدأ من 00.00 s.  \nعند انطلاقك بقوة، يبدأ العدّ الزمني ويقيس كم ثانية تحتاج لتصل إلى سرعة معيّنة (حسب ما برمجته BYD،...\n\n...ًا أو الجو حار، الأفضل تعمل التجربة في وقت أبرد أو بعد شحن جزئي حتى لا يحد النظام القوة أو ترتفع الحرارة.  \n\nلو تحب، أستطيع أن أقترح لك إعداد تسارع واحد مثالي لسيارتك (وضع القيادة، EV/HEV، مستوى الشحن) يعطيك أقرب شيء للأداء الأقصى بدون إرهاق السيارة.",
+          "entry_uuid": "76606155-baad-495e-ad47-38f8048a7eca",
+          "timestamp": 1770744180165870
+        },
+        {
+          "query": "can lenovo thinkpad t14 use sd card and how?",
+          "answer": "Yes, most ThinkPad T14 models can use an SD card, but it’s a microSD card, not full‑size SD, and the slot location depends on the generation.\nThinkPad T14 Gen 1 and Gen 2 (Intel/AMD) have a built‑in microSD card reader.  \nIt accepts microSD / microSD...\n\n...USB‑A or USB‑C SD/microSD reader; the laptop will treat the card like a USB flash drive.\n\nIf you tell me your exact T14 generation (for example “T14 Gen 1 AMD” or “T14 Gen 3 Intel”), I can describe the exact slot location and card type for your unit.",
+          "entry_uuid": "e628cf2d-af20-4d56-90ec-bf8d579bfe7b",
+          "timestamp": 1770925960511171
+        },
+        {
+          "query": "where to find the microSD slot on lenovo thinkpad t14 not t14s",
+          "answer": "On the regular ThinkPad T14 (not T14s) the microSD slot is built into the chassis, not in the battery or under the keyboard.\n\nBecause Lenovo changed the layout a bit between generations, check in this order:\n\n1. Right side (most common on T14 Gen 1 /...\n\n...l need a USB SD/microSD adapter.\n\nTo be sure, you can also look up your exact T14 model (type number on the bottom sticker, e.g. “20S0‑xxxx”) on Lenovo’s support/specs page; if it lists “microSD card reader”, then it’s one of the two locations above.",
+          "entry_uuid": "559c62e8-0245-4da6-8ef4-96708c22408a",
+          "timestamp": 1770926792650588
+        }
+      ],
+      "following_context": [
+        {
+          "query": "وهل حساب BYD تم تفعيله أخيراً أم ما زال فيه مشكلة؟\nstill a problem\nbydautoservice.mea\n10:38 AM (11 hours ago)\nto me\nDear Cust...\n\n...nience, but please be assured that BYD is always committed to providing customers with the best quality products and services",
+          "answer": "الوضع واضح الآن: سيارتك نسخة صينية مستوردة موازية، وBYD أكّدوا رسميًا أن ربطها بسيرفرات الشرق الأوسط (العراق) غير ممكن حاليًا بسبب اختلاف الهاردوير والشبكة، لذلك حساب BYD لن يعمل عندك (لا Remote AC ولا فتح من الجوال).  \nتطبيق BYD الرسمي على Xiaomi 15...\n\n...أمثل في رحلاتك اليومية والـ 400 كم بين أربيل وبغداد.  \n\nلو تحب، أقدر أعمل لك “باقة” إعداد شخصية:  \nما هي التطبيقات التي أنصحك تثبّتها على Xiaomi 15،  \nوأي إعدادات في شاشة BYD تغيّرها،  \nبحيث تعوّض 80–90٪ من فائدة حساب BYD الرسمي رغم أن ربطه غير ممكن.",
+          "entry_uuid": "682c607a-3bf4-4230-acea-9c42bb91d163",
+          "timestamp": 1771009607596712
+        },
+        {
+          "query": "i have a friend in china can use his phone number to connect the car what do you think?",
+          "answer": "تقنيًا الفكرة ممكنة، لكن لازم تفكّر في 3 نقاط مهمة قبل تعملها:\nحتى لو استخدمت رقم صيني لصديقك:\nالسيارة ستُسجَّل في حساب BYD مربوط برقم صديـقك، وليس برقمك أنت.  \nكل إشعارات السيارة، أكواد التحقق، واسترجاع الحساب ستذهب إلى جوال صديقك، وليس لك.  \nمن ناح...\n\n...ن إن سألتني عن الخيار الأكثر راحة وأمانًا لك على المدى الطويل:  \nاستمر باستغلال السيارة كمنظومة Offline + Android Auto، واعتبر حساب BYD خدمة “Nice to have” وليست ضرورية، خصوصًا مع اختلاف الهاردوير وغياب الدعم الرسمي في العراق كما أكدوا لك في الإيميل.",
+          "entry_uuid": "b93ae9e9-2a7b-4030-84c6-ac4564fdaf25",
+          "timestamp": 1771010026539032
+        },
+        {
+          "query": "Android Auto is it possible?",
+          "answer": "For your specific case (Chinese‑market Destroyer 05 2025), official Android Auto is not available in the stock Chinese DiLink system, لكن يوجد حل عملي عبر تطبيق وسيط داخل الشاشة.\nسيارات BYD الموجهة للأسواق العالمية (Atto 3, Dolphin, Seal…) تدعم Andro...\n\n...أخرى بنفسك، لأن استرجاع DiLink الصيني في حال الخطأ ليس سهلاً.  \n\nلو قلت لي بالضبط:  \nهل عندك الآن متجر APK / متصفح على شاشة السيارة؟  \nوهل عندك USB‑A data port يعمل؟  \n\nأستطيع أن أكتب لك خطوات دقيقة لطريقة Headunit Reloaded تناسب سيارتك ووضعك الحالي.",
+          "entry_uuid": "081dc9f2-b4af-43e6-bd96-7bfe86b9f827",
+          "timestamp": 1771010157907551
+        }
+      ],
+      "url": "https://perplexity.ai/search/d40eb3ac-bfab-42e1-8471-0475db594495"
+    },
+    {
+      "entry_uuid": "6aa08343-1f38-4998-9ba5-eea83c869969",
+      "query": "how to install and use BYD AUTO / BYD App – Official BYD companion app (usually for the phone, not the car head unit) for remote lock, climate, charge scheduling, etc., but worth having on your phone alongside the in‑car system",
+      "answer": "You install BYD AUTO (My BYD) on your phone, create an account, then bind your Destroyer 05 using the VIN/QR code so you can control lock, AC, and charging remotely.\nBYD offers region‑specific portals (Iraq, Kuwait, Qatar, etc.) that describe the same cloud app and features.\nRemote functions (lock, AC, charge, etc.) depend on your market and whether your car’s embedded SIM and connected services are activated.\n\nIf you got the car from BYD Iraq and they mentioned the app, you are almost certainly supported.\nOn Android: install “BYD AUTO” / “BYD” / “My BYD” from Google Play where available (package com.byd.bydautolink).\nOn iPhone: install the official BYD app from the App Store (same branding, “BYD”/“My BYD”).\nIn some Arabic markets, dealers also share direct download links from their BYD site.\n\nInstall and open the app, then select your country/region and language.\nRegister using your email or mobile number inside the app.\nVerify with the code sent to you, then log in.\nThis account beco...\n\n...pp, but real‑time commands will not execute.\n\nOnce the car shows as “online” in the app, you can typically do:\nRemote lock/unlock – Tap lock/unlock icons to secure the car.\nRemote climate – Set temperature and fan, then start AC or heating before you get in.\nSeat functions (if equipped) – Turn seat ventilation / heating on or off.\nLights & horn – Flash lights or honk briefly to find the car in a parking lot.\nStatus checks – View battery state of charge, predicted time to full, tyre pressure, door/window state.\nCharging – See charging status, remaining time, and (in some markets) set charge limits or schedules.\n\nThese features are exactly what the BYD Iraq/Qatar/Kuwait pages describe as part of “MY BYD – Cloud Connected APP.”\n\n\n\nIf you send me:\nA screenshot of the BYD app region list you see, and\nWhether your destroyer 05 currently shows any “connected services” or “4G” icon on the screen,\n\nI can walk you step‑by‑step through the exact binding workflow that will work for your Iraqi car.",
+      "date": "2026-02-06",
+      "context_uuid": "f9754ef5-42a2-4b7b-bfd6-690158c03b13",
+      "timestamp": 1770409103094874,
+      "prior_context": [
+        {
+          "query": "what is the best fm radio for byd cars that works directly with fm channels by air and requires no internet",
+          "answer": "You have three practical options, depending on what exactly you want to achieve in your BYD.\n\nSome BYD trims already have a native FM tuner in the head unit, but it may be hidden behind a radio app or region‑specific settings rather than a classic “F...\n\n...air it to the car’s Bluetooth.\n\nIf you tell me your exact BYD model (e.g., Qin Plus, Song Plus, Seagull, Dolphin, Atto 3) and whether your head unit has AUX/Bluetooth only or also shows any Radio icon, I can narrow this down to a very specific setup.",
+          "entry_uuid": "47e633dc-fc8d-4389-b197-2f845a8099ad",
+          "timestamp": 1770408479062448
+        },
+        {
+          "query": "suggest me some apk apps to download to my destroyer 05 byd car in iraq",
+          "answer": "You can treat the Destroyer 05 screen like a limited Android tablet and focus on “offline‑friendly” APKs that do not depend on Google services (since Play Services are problematic on this model).\nDestroyer 05 exports usually run DiLink/Android withou...\n\n...ck.\n\n\n\nIf you tell me:\nYour Destroyer 05 software version (e.g., 23xx/24xx),\nAnd what you mainly want (offline maps, streaming, YouTube, games),\n\nI can propose a very specific list of APK names + a safe sideload workflow tailored to your exact setup.",
+          "entry_uuid": "5e4810f7-945b-4a35-bc0b-9b62985e0af2",
+          "timestamp": 1770408733162508
+        }
+      ],
+      "following_context": [
+        {
+          "query": "how to get the qr code from the car",
+          "answer": "You normally show the QR code from a menu on the car’s main screen; if it’s not there, it’s a dealer/activation issue rather than you “missing” it.\n\nOn most recent BYD models, the QR for the BYD app is inside the vehicle / connectivity / remote contr...\n\n...r a pop‑up with the QR will show on the PAD after a restart.\n\n\n\nIf you send me a photo or list of the menu items under your Vehicle / Internet / Link sections (English or Arabic), I can tell you exactly which item to tap on your Destroyer 05 in Iraq.",
+          "entry_uuid": "1b5ae108-3a19-4575-870a-121996c8ac73",
+          "timestamp": 1770409226679200
+        },
+        {
+          "query": "ا",
+          "answer": "QR الكود غير ظاهر في قائمتك الحالية، وغالبًا يحتاج تفعيل من الوكيل أو من قائمة أخرى مخفية.\n\nمن الصورة واضح أنك داخل إعدادات DiLink → الوقت/اللغة، وليس قسم الاتصال أو الحساب.\n\nجرّب بالترتيب (مع تشغيل السيارة بالكامل وليس على ACC فقط):\n\n1. اضغط على Veh...\n\n...code للـ BYD App؛ هذه نفس الخطوة التي يطلبها ملاك BYD في أوروبا والخليج عندما لا يظهر الـ QR في الشاشة.\n\nبعد ما يفعّلونها من طرفهم، عادةً يظهر خيار جديد في إعدادات السيارة (غالبًا تحت Network/Cloud/Remote) يسمح لك بعرض QR ومسحه من التطبيق على الهاتف.",
+          "entry_uuid": "39653197-7d25-43a2-8991-469ed7930235",
+          "timestamp": 1770414938391772
+        },
+        {
+          "query": "هذا",
+          "answer": "هذا هو كود الـ QR الصحيح لربط السيارة بحسابك، ممتاز أنك وجدته.\n\n1. افتح تطبيق BYD / My BYD / BYD AUTO على موبايلك.\n2. سجّل دخولك بحسابك (إيميل أو رقم هاتف) إن لم تكن مسجّلًا.\n3. اختر Add Vehicle / إضافة مركبة ثم Scan QR code / Scan VIN QR أو أي خيار ...\n\n...ل التطبيق وتأكد أن الحالة Online ثم جرّب:\nقفل/فتح الأبواب عن بُعد.\nتشغيل/إيقاف المكيّف عن بُعد.\nمشاهدة حالة الشحن والبطارية.\n\nإذا أعطاك التطبيق رسالة خطأ (مثل خطأ في المنطقة أو أن السيارة مضافة لحساب آخر)، أرسل لي نص الرسالة وسأشرح لك الخطوة التالية.",
+          "entry_uuid": "d0e6324f-2cad-48fa-9c3c-a8262ffcb17d",
+          "timestamp": 1770416315960571
+        }
+      ],
+      "url": "https://perplexity.ai/search/6aa08343-1f38-4998-9ba5-eea83c869969"
+    },
+    {
+      "entry_uuid": "d996a69f-ba50-43cd-a770-7dcbd0b29a07",
+      "query": "How does the adapter connect to the car",
+      "answer": "The adapter plugs physically into your car’s OBD‑II port, then talks wirelessly to your phone.\nEvery modern car has a 16‑pin OBD‑II socket, usually under the dashboard near the steering wheel. You push the OBDLink MX’s connector firmly into that socket and leave it there.   \nOnce plugged in, it takes power from the car and connects to your Xiaomi 15 over Bluetooth, where apps like Car Scanner or Torque can read all the ECU data through it. ",
+      "date": "2026-02-20",
+      "context_uuid": "d25efc27-a3e6-4d7c-a540-15b412d97bb1",
+      "timestamp": 1771611439898046,
+      "prior_context": [
+        {
+          "query": "With this adapter so I need to keep the laptop in the car all the time",
+          "answer": "You don’t need to keep a laptop in the car.  \nThe OBDLink MX you selected is a Bluetooth adapter (not USB), so you can pair it directly with your Xiaomi 15 and use apps like Car Scanner or Torque on the phone while driving.   \nYou only need a laptop later if you want to download log files from the phone and run Python analysis; that can be done at home, not in the car.",
+          "entry_uuid": "f1f14ffb-9481-4d88-8ca9-f9962481ce9c",
+          "timestamp": 1771611228618525
+        },
+        {
+          "query": "What is the rule of python here then",
+          "answer": "Python’s role is offline brain, not live in‑car display.\nIn the car, your Xiaomi 15 + OBDLink MX + app (Car Scanner/Torque) will handle real‑time data, gauges, and logging while you drive.   \nAfter driving, you export the app’s CSV log files to your ...\n\n...s (per‑trip efficiency, weekly trends, effect of speed on fuel use) and maybe build small tools or dashboards for your Destroyer 05.   \n\nSo: phone + OBDLink gives you the data; Python lets you analyze it deeply and build your own “BYD cloud” at home.",
+          "entry_uuid": "0d498145-5939-4eb6-b355-65d60efd58b1",
+          "timestamp": 1771611278486437
+        },
+        {
+          "query": "Can I use only my phone with some python programming to have access to all of these info without buying the adapter",
+          "answer": "No. Your phone (and Python on it) cannot read car data by itself; it has no physical connection to the Destroyer 05’s OBD‑II/CAN bus.   \n\nTo access RPM, SOC, temperatures, DTCs, etc., you must have a hardware interface (OBD adapter or similar) plugged into the car and talking to the phone, whether you use ready‑made apps or custom Python code. ",
+          "entry_uuid": "02fc374c-cbed-4f86-b4a8-6f6fac57e970",
+          "timestamp": 1771611383722219
+        }
+      ],
+      "following_context": [
+        {
+          "query": "Shall it be connected all the time even during driving",
+          "answer": "Yes, you can leave the OBDLink MX plugged in all the time, including while driving.   \nIt is designed for continuous use and real‑time data streaming while you drive.   \nIt has a low‑power sleep mode to avoid draining the 12 V battery when the car is off, so it’s safe to keep it connected permanently in normal use. ",
+          "entry_uuid": "6d880129-f0b1-42ea-aca4-d78afbdebf30",
+          "timestamp": 1771611499775107
+        },
+        {
+          "query": "What to choose",
+          "answer": "For you, ignore the splitters and generic tools; pick one proper scanner.\n\nFrom the images, the best choices are:\n\n1. OBDLink MX (Bluetooth) – in the eBay screenshot.  \nPros: very reliable, fast, works great with Android apps, safe to leave plugged i...\n\n... \nYou’d then use a USB‑C OTG adapter to connect it to your Xiaomi.\n\nSo:  \nFirst choice: OBDLink MX (Bluetooth) from the second screenshot.   \nBackup if shipping/cost is a problem: Vgate vLinker FS USB from the AliExpress “Deep search results” image. ",
+          "entry_uuid": "3509bd07-1473-4f97-a9b3-1c45e9def336",
+          "timestamp": 1771611836145030
+        },
+        {
+          "query": "This one",
+          "answer": "Yes, this Vgate vLinker FS USB is a good choice for your plan.   \n\nWith it you will need:  \nA small USB‑A → USB‑C OTG adapter to plug it into your Xiaomi 15.   \nAn app like Car Scanner or Torque configured for USB connection.   \n\nOnce it arrives, tell me and we’ll do step‑by‑step: where to plug it in the Destroyer 05, how to set up Car Scanner, and how to export logs for Python.",
+          "entry_uuid": "e0fbf609-feb9-4e0b-9b91-46559c5ebf60",
+          "timestamp": 1771611995612356
+        }
+      ],
+      "url": "https://perplexity.ai/search/d996a69f-ba50-43cd-a770-7dcbd0b29a07"
+    },
+    {
+      "entry_uuid": "c6aa1a15-a4f2-4d5b-8295-d0e58ef7e73b",
+      "query": "Let's use obd USB and my xiaomi 15 phone",
+      "answer": "Good plan. With USB OBD + your Xiaomi 15 you can get rich live data and logs.\nA USB OBD‑II adapter based on a reliable ELM327‑compatible chipset (not the very cheap “mini” clones). Look for brands that support Android and mention apps like Torque or Car Scanner.   \nA USB‑A → USB‑C OTG adapter/cable so you can plug the OBD’s USB plug into your Xiaomi 15. Most modern Xiaomi phones support OTG.   \n\n1. On the phone, open Settings → Additional settings → OTG (or search “OTG”).  \n2. Make sure OTG is enabled.   \n\nUse one of these (start with Car Scanner, very friendly):  \nCar Scanner ELM OBD2 (recommended).   \nOr Torque Pro if you prefer more customization.   \n\nInstall from Play Store, then:\n\n1. Plug the OBD adapter into the OBD port under the steering column of the Destroyer 05 (engine OFF first, then IGN/READY ON).   \n2. Connect the adapter’s USB to your Xiaomi via the OTG cable; accept the “allow this app to use USB device” prompt and choose Car Scanner.   \n3. In Car Scanner → Settings → Connection:  \nConnection type: USB.  \nAdapter: select the detected ELM327/USB device.   \n4. Go back and tap Connect; after a few seconds you should see RPM, speed, etc. updating.   \n\nIn Car Scanner:\n\n1. Settings → Data logging → enable automatic logging and set format to CSV.   \n2. After a drive, export the log file to your laptop (USB/Google Drive).  \n\nThen, on your PC you can use Python (pandas, matplotlib) to analyze those CSVs—e.g., plot speed vs fuel, EV ratio, etc.   \n\nIf you want, next step send me a photo of the OBD adapter you buy and one sample CSV; I’ll write a Python script that reads your logs and generates useful graphs for your Destroyer 05.",
+      "date": "2026-02-20",
+      "context_uuid": "d25efc27-a3e6-4d7c-a540-15b412d97bb1",
+      "timestamp": 1771610588122534,
+      "prior_context": [
+        {
+          "query": "I think it's impossible to continue? \nWhat do you think?",
+          "answer": "You’re right: in practice it’s not feasible to continue toward full BYD‑app control for this car.  \n\nFrom what the agent told you:  \nThe car is a China‑version, and app functions (especially remote control) only work inside mainland China due to netw...\n\n...ible unless you somehow work with the original Chinese owner inside China. I’d treat BYD’s cloud/app features as unavailable and instead focus on local solutions (head‑unit mods, OBD + third‑party apps, etc.) for anything you wanted from the BYD app.",
+          "entry_uuid": "7641dae4-1ed9-4f31-b8e2-579f1abe8f8f",
+          "timestamp": 1771598329285897
+        },
+        {
+          "query": "What about using python with my byd destroyer 05",
+          "answer": "You can’t run Python directly on the BYD head unit, but you can use Python on your laptop or a small computer as a “companion brain” for the Destroyer 05.  \n\nWith the right hardware, Python can:\nRead live data (SOC, temperatures, engine load, DTCs) v...\n\n...ve you a minimal, working Python script tailored to that platform (including COM port detection) and a CSV schema for your Destroyer 05.  \n3. After you collect a trip, you can send me a sample of the CSV and I’ll help you build analysis/plots on top.",
+          "entry_uuid": "243572c3-babf-43eb-8a4f-454d156a12df",
+          "timestamp": 1771609823410891
+        }
+      ],
+      "following_context": [
+        {
+          "query": "I found this on setting",
+          "answer": "That’s exactly the OTG setting we need.   \n\nBefore you use a USB OBD adapter with your Xiaomi 15:\n\n1. Go to this OTG screen.  \n2. Turn the switch ON (it will auto‑turn‑off after 10 minutes idle).   \n3. Then plug in your OBD adapter via the USB‑C OTG cable; when Android asks which app to use, choose Car Scanner (or your OBD app) and allow access.   \n\nOnce you have the USB OBD dongle, we can walk through the exact Car Scanner setup screens next.",
+          "entry_uuid": "5a4f105b-d1ef-4501-804e-978722751db5",
+          "timestamp": 1771610708844439
+        },
+        {
+          "query": "Suggest me A USB OBD‑II adapter",
+          "answer": "For a USB OBD‑II adapter to use with your Xiaomi 15 via OTG, pick one of these:\n\n1. OBDLink SX (USB) – safest high‑quality choice  \nFast, stable USB connection, widely recommended by serious diagnostic apps.   \nWorks with Android devices that support...\n\n... is a strong second option.   \n\nOnce you have it, we’ll:\nEnable OTG on the Xiaomi.   \nInstall an app like Torque Pro or a USB‑supporting scanner.  \nConfigure it to use the USB adapter and start logging data from your Destroyer 05 for Python analysis.",
+          "entry_uuid": "c7bf4ed2-2ef1-4b6d-b66e-d5d63d52d314",
+          "timestamp": 1771610778118623
+        },
+        {
+          "query": "Which one",
+          "answer": "From that list, pick the first one:\n“New OBDLink MX OBD‑II Adapter” – USD 62.99.   \n\nThe others shown (OBDLink EX FORScan OBD Adapter) are more expensive and mainly optimized for FORScan/Ford diagnostics; for your use (Android phone + Car Scanner / Torque + Python logs), the regular OBDLink MX (USB) is perfect and cheaper. ",
+          "entry_uuid": "73db1169-eab5-4e3c-a6d5-c11a5c772b70",
+          "timestamp": 1771610923062375
+        }
+      ],
+      "url": "https://perplexity.ai/search/c6aa1a15-a4f2-4d5b-8295-d0e58ef7e73b"
+    },
+    {
+      "entry_uuid": "69d0f2b5-5676-47a6-956d-b4df1d08762b",
+      "query": "Explain this photo",
+      "answer": "This is a temporary vehicle license/permit document in Chinese for your BYD Destroyer 05.   \nIt lists the manufacturer (BYD in Guangdong/Guangzhou), vehicle type (small passenger car), and model code BYD7152MT6HEVC5.   \nThe VIN printed is LC0C76C25S0519862, matching your car, and it notes seating capacity of 5.   \nThe stamp from Guangdong traffic police and the “valid until 2025‑10‑13” line show it’s a temporary driving permit valid up to that date, typically used before permanent registration and plates are issued. ",
+      "date": "2026-02-19",
+      "context_uuid": "d25efc27-a3e6-4d7c-a540-15b412d97bb1",
+      "timestamp": 1771527887908397,
+      "prior_context": [
+        {
+          "query": "On phone",
+          "answer": "You can’t directly install that exact in‑car “User Manual 3.5.0.250609.4” app on your phone, because BYD does not publish it as a separate APK for Android/iOS users.   \n\nTo read the manual on your phone you have two realistic options:  \nUse the offic...\n\n...F owner’s manual for BYD Destroyer 05 from third‑party manual sites (for example CarOBook) and open it on your phone.   \n\nIf you tell me your preferred language (Chinese or English), I can send you a direct PDF link suitable for reading on the phone.",
+          "entry_uuid": "55ff6d88-0a7a-47d3-b413-f3c031cb697b",
+          "timestamp": 1771378657352393
+        },
+        {
+          "query": "English",
+          "answer": "For English, the easiest option is this site that hosts BYD Destroyer 05 manuals in multiple languages, including English:   \n\nYou can open it on your phone, choose English, then download the PDF for BYD Destroyer 05 / Seal 5 DM‑i and read or save it in any PDF reader. ",
+          "entry_uuid": "30e09064-0bcf-472d-adb3-25fd3f3cb1b6",
+          "timestamp": 1771378705048273
+        },
+        {
+          "query": "What are the tests for gluten disease in children",
+          "answer": "In children, testing for “gluten disease” (celiac disease) usually includes blood tests, sometimes genetic tests, and often an intestinal biopsy, depending on guidelines and results.   \nIgA anti–tissue transglutaminase (tTG‑IgA): main screening test ...\n\n...id function, and growth parameters, to look for complications or associated conditions.   \n\nIf you tell me the child’s age and whether they already started a gluten‑free diet, I can suggest exactly which tests to ask the doctor for and in what order.",
+          "entry_uuid": "865e30ca-dcf3-4433-a342-9da01fd4242f",
+          "timestamp": 1771522984485404
+        }
+      ],
+      "following_context": [
+        {
+          "query": "Is it the same as the original reseller that I can use his info to register it in BYD app",
+          "answer": "Yes, you can treat this as the original selling dealer/manufacturer info when registering in the BYD app.   \nThe right column shows the manufacturer name and address in Guangdong (BYD’s plant/dealer that issued the temporary permit).   \nWhen the BYD app asks for dealer or seller, you can enter this BYD company/location because it is the entity that officially issued and sold the vehicle. ",
+          "entry_uuid": "ef67c3c1-f8ef-4167-96a0-029732ce99b2",
+          "timestamp": 1771528834789541
+        },
+        {
+          "query": "Help me do it",
+          "answer": "You can use this document’s info when the BYD app asks for dealer/seller, but you’ll need to type it manually.   \nFrom the right side of the paper:  \nSeller/manufacturer: BYD (Guangzhou) – the long Chinese line is BYD’s company name and address in Gu...\n\n...your VIN, and ask them to manually bind the vehicle to your account.   \n\nIf you tell me exactly which BYD app you installed (app name and icon color) and what screen you’re stuck on, I can give you tap‑by‑tap instructions and the exact text to enter.",
+          "entry_uuid": "8fdf871a-2764-4f37-b749-b02852e81658",
+          "timestamp": 1771528868004695
+        },
+        {
+          "query": "But no qr code in the vehicle",
+          "answer": "You’re doing it right; the problem is that your Destroyer 05 head unit simply doesn’t generate the pairing QR code that this BYD app expects, so you can’t complete binding through this app’s normal flow.   \nThe app you installed (white icon with red ...\n\n... car even with the correct VIN.  If you confirm there is truly no QR code anywhere in the infotainment menus, it almost certainly means your car is in this group, and app control will not be possible without an official software/region change by BYD.",
+          "entry_uuid": "0ba863bc-81bf-4600-a9bf-a2ba498c6e48",
+          "timestamp": 1771529242332569
+        }
+      ],
+      "url": "https://perplexity.ai/search/69d0f2b5-5676-47a6-956d-b4df1d08762b"
+    },
+    {
+      "entry_uuid": "0615ce53-a0bd-4ed2-8d61-69e0f8b4f825",
+      "query": "لنترك فقرة دليل ورش وخبراء BYD + قطع غيار\nصفحة “ورش قريبة مني” (قائمة + خريطة).\nصفحة “قطع غيار وأكسسوارات” فيها أرقام المحلات الى النهاية لحين اكمالي جمع البيانات المطلوبة ولنبدأ الان بتطبيق فكرة التطبيق",
+      "answer": "فهمت عليك تمامًا: نؤجل جزء “الدليل” (ورش + قطع غيار) لغاية ما تكمل جمع البيانات، ونبدأ الآن بتصميم وتنفيذ فكرة تطبيق BYD DM‑i نفسها من ناحية الميزات، الشاشات، والـ MVP.\n\nأقترح نقسم التطبيق إلى 4 أقسام رئيسية في النسخة الأولى (بدون دليل الورش/القطع):\n\n\n\nهدفه: يكون المرجع رقم 1 لمالكي BYD DM‑i في العراق لفهم السيارة واستغلال كل ميزاتها.\nمقالات قصيرة بالعربي مقسّمة حسب الموديل (Qin Plus, Song Plus, Seal 05 DM‑i…).\nتصنيف المحتوى:\nأساسيات DM‑i: الفرق بين EV Mode / HEV / CHARGE، متى تستخدم كل واحد.\nاستهلاك الوقود والكهرباء: كيف تقود لتقلل الصرف.\nشروحات الشاشة (DiLink / الكوكتبت الذكي): البلوتوث، الخرائط، الأوامر الصوتية، تدوير الشاشة، إلخ.\nأنظمة الأمان: ACC, LKA, AEB, 360 كاميرا… مع أمثلة عملية.\nدعم نص + صور + رابط فيديو (يوتيوب / فيسبوك) لمنشورات عراقية أو عربية قوية عن BYD.\nشاشة: “اختيار سيارتك” (اختر موديل: Qin Plus, Song Plus, Seal 05, …).  \nشاشة: قائمة مواضيع لكل موديل.  \nشاشة: عرض موضوع (نص + صور + فيديو مضمّن).\n\n\n\nهنا القيمة العالية للشباب:  \nكل شغلة مخفية/غريبة في BYD DM‑i تكون موجود...\n\n...ا فوق).  \nرسم الـ wireframes (يدوي أو Figma).  \nإعداد سكيمة قاعدة البيانات للجزء التالي فقط:\nUsers  \nCars (موديلات)  \nArticles/Guides  \nTips  \nQ&A (Questions / Answers)  \nPosts (تجارب)\nBackend (FastAPI أو Node.js) + PostgreSQL.  \nAPI أساسية:  \nتسجيل/دخول مستخدم  \nحفظ موديل السيارة  \nجلب المقالات/التكتكات  \nنشر سؤال، جلب أسئلة، نشر جواب  \nنشر تجربة\nواجهة موبايل (React Native أو Flutter أو Web PWA مبدئيًا).  \nبناء التبويبات الأساسية والشاشات.\nتعبئة المحتوى الأولي (على الأقل 10–20 مقال/حيلة أنت تكتبها يدويًا).  \nإطلاق تجريبي لمجموعة صغيرة (مثل جروبات BYD على فيسبوك/تيليغرام) وأخذ ملاحظات.\n\n\n\nبما أنك تريد “نبدأ الآن بتطبيق فكرة التطبيق”:\nممكن الرد القادم يكون:\nتصميم سكيمة قاعدة البيانات بشكل عملي (جداول + أعمدة).  \nأو تصميم API endpoints الأساسية (REST) مع أمثلة JSON.  \nأو اقتراح Stack تقني محدد (مثلاً: FastAPI + React Native + Supabase) مع ملف todo واضح.\n\nاختر:  \nهل تفضل نبدأ بـ:\n1) سكيمة قاعدة البيانات،  \nأم 2) تصميم الشاشات بشكل أوضح (wireframe نصي)،  \nأم 3) تعريف API / structure للكود؟",
+      "date": "2026-01-21",
+      "context_uuid": "9d3356cb-577f-43a4-af47-dff4e4f84079",
+      "timestamp": 1768983992514068,
+      "prior_context": [
+        {
+          "query": "let's focus on ages from 18 to 30 years",
+          "answer": "For Iraqis aged 18–30, the most profitable app ideas sit where three lines intersect: heavy social media use (TikTok/Instagram/Snapchat), high youth unemployment, and rapidly growing but still underused digital payments.\n\nHere are concrete ideas tail...\n\n... down, the next step can be: choose 2–3 of these (e.g., creator monetization, youth gig platform, or campus app), and a detailed MVP + monetization + go‑to‑market plan for Iraq (TikTok/Instagram ads, campus ambassadors, partnerships) can be laid out.",
+          "entry_uuid": "ae3f09a6-5490-496e-b6ee-6c4e12362933",
+          "timestamp": 1768982343897745
+        },
+        {
+          "query": "give me youth gig platforma detailed MVP + monetization + go‑to‑market plan",
+          "answer": "A youth gig platform for Iraq (18–30) should be a local Upwork/TaskRabbit hybrid focused on small digital and offline gigs, built for low‑friction onboarding, local payment rails, and trust.\n\nBelow is a concise, practical plan.\n\n\nYoung Iraqis (18–30)...\n\n...eek + repeat users as your real validation, not just signups.\n\n\n\nIf you want, next step can be an ultra‑concrete DB schema + API design for jobs, offers, and ratings, or a simple landing page copy in Arabic/English to start collecting early interest.",
+          "entry_uuid": "7edc3034-e419-428a-ad17-3eecd8f6edc4",
+          "timestamp": 1768983164984472
+        },
+        {
+          "query": "لدي فكرة\nكثرت في  الفترة الاخيرة رغبة الكثير من الشباب العراقي في شراء سيارات بي واي دي التي تعمل بتقنية DM-i ولكن هناك القلي...\n\n...ى من كل مميزاتها المعروفة والغير معروفة بالاضافة لقلة اماكن بيع الادوات الاحتياطية\nلنقوم بعمل تطبيق يقدم الكثير من هذه الحلول",
+          "answer": "الفكرة ممتازة جدًا، وتضرب حاجة حقيقية في السوق العراقي مع انتشار سيارات BYD وخاصة فئة DM‑i مقابل قلة الخبرة والورش المختصة.\n\nأقسم لك الرد إلى 3 أجزاء: ما هي الفكرة بالضبط، ما الذي يقدمه التطبيق، وكيف يمكن أن يكون MVP واقعي.\n\n\n\nتطبيق مخصص لمالكي سيارا...\n\n...ens):  \nالشاشة الرئيسية  \nشاشة الورش  \nشاشة قطع الغيار  \nشاشة المقالات/الفيديو  \nشاشة الأسئلة والأجوبة  \nأو نضع خطة 4–6 أسابيع لبناء MVP (تقسيم أسابيع: جمع بيانات الورش، بناء Backend، بناء واجهة جوال، إطلاق تجريبي في مجموعات BYD على فيسبوك/تيليغرام).",
+          "entry_uuid": "55d2dd7a-bfd3-473c-99dc-a4dc346ddf4a",
+          "timestamp": 1768983645565487
+        }
+      ],
+      "following_context": [
+        {
+          "query": "ذكرني بهذه النقطة إمكانية حفظ بعض “الوصفات” كـ Presets (مثلاً: وضع سفر → تفعيل X وY وZ).\n(في البداية تكون مجرد نص؛ لاحقًا ممك...\n\n...ل OBD/بلوتوث لو حبيت تروح بعيد.) مستقبلا\nالان لنبدأ خظوة خظوة وبشكل متسلسل ومنطقي\nحدد لي كل المتطلبات التي يجب تحميلها ولنبدأ",
+          "answer": "أذكّرك أولًا بالنقطة التي طلبت حفظها للمستقبل:\n\n> إمكانية حفظ بعض “الوصفات” كـ Presets (مثلاً: وضع سفر → تفعيل X وY وZ).  \n> في البداية تكون مجرد نص؛ لاحقًا ممكن تفكر بتكامل OBD/بلوتوث لو حبيت تروح بعيد.\n\nسنرجع لها في مرحلة لاحقة (V2/V3) عندما يكون ع...\n\n...2. إنشاء:\nهيكل Backend مبدئي (main.py, requirements.txt, docker-compose.yml).  \nEndpoint تجريبي /health للتأكد أن كل شيء يعمل.\n\nلو موافق، اختر:\nهل تريد Backend فقط أولاً (FastAPI + Postgres + Docker)  \n  أم تريد نشتغل Backend + Frontend معًا من الآن؟",
+          "entry_uuid": "4aaf6943-eba6-46c5-975e-41e66c4c35ca",
+          "timestamp": 1768984263392820
+        },
+        {
+          "query": "نشتغل Backend + Frontend معًا من الآن",
+          "answer": "سنبدأ بتجهيز بيئة Backend + Frontend معًا خطوة خطوة، وكل شيء سيكون بسيط وقابل للتنفيذ على ويندوز.\n\nسأقسم الخطة إلى جزئين: Backend ثم Frontend، مع ترتيب منطقي لما يجب تثبيته وتجهيزه.\n\n\n\n1. Python 3.10+  \n2. Git  \n3. Node.js (آخر نسخة LTS)  \n4. VS Code...\n\n...اشرة على النظام؟\n\nردّك القادم فقط يكون:\nتأكيد أن الأدوات الأساسية OK (أو ماذا ينقصك).  \nاختيارك لـ DB (Docker أو Local).  \n\nبعدها أعطيك:\nأوامر كاملة خطوة خطوة (مكتوبة)،  \nمع أول ملف main.py للـ backend،  \nوأمر إنشاء مشروع React + تشغيله للـ frontend.",
+          "entry_uuid": "fa18423a-bae9-48e9-a725-8c6dc87aa805",
+          "timestamp": 1768987273709345
+        },
+        {
+          "query": "I have :\nVS Code \nVersion: 1.108.1 (user setup)\nCommit: 585eba7c0c34fd6b30faac7c62a42050bfbc0086\nDate: 2026-01-14T14:55:44.24...\n\n...44.235\nNode.js: 22.21.1\nV8: 14.2.231.21-electron.0\nOS: Windows_NT x64 10.0.26200\n\nPython 3.12.10\nprefer to use Docker Desktop",
+          "answer": "ممتاز، بيئتك مثالية ونستخدم Docker Desktop كما فضّلت.  \nسنمشي الآن بخطوات عملية وواضحة لبدء backend + frontend.\n\nسأقسّمها إلى:\n\n1. إنشاء هيكل المشروع  \n2. إعداد PostgreSQL عبر Docker  \n3. إعداد Backend (FastAPI)  \n4. إعداد Frontend (React + Vite)\n\nنف...\n\n...ـ backend لاختبار التواصل.\n\nارسل ردّ بسيط فقط يؤكد:\nهل اشتغلت:\ndocker-compose up -d بنجاح؟  \nuvicorn app.main:app --reload وظهر /health؟  \nnpm run dev والـ React app ظهر؟  \n\nثم نكمل مباشرة إلى ربط الـ backend بـ Postgres وبناء أول models و endpoints.",
+          "entry_uuid": "64c37ed2-8aed-4ab6-bf90-895f498efd9b",
+          "timestamp": 1768989330631858
+        }
+      ],
+      "url": "https://perplexity.ai/search/0615ce53-a0bd-4ed2-8d61-69e0f8b4f825"
+    },
+    {
+      "entry_uuid": "db7dbb14-ef7e-4016-b1b9-f68c9ee523d7",
+      "query": "what is the new name for destroyer 05 2025 car model\nModels\n[BYD SEALION 7](https://www.byd.com/om/car/sealion-7)\n[BYD ATTO 3](https://www.byd.com/om/car/atto3)\n[BYD SEAL](https://www.byd.com/om/car/seal)\n[BYD HAN](https://www.byd.com/om/car/han)\n[BYD SHARK 6](https://www.byd.com/om/car/shark-6)\n[BYD SEAL 7 DM-i](https://www.byd.com/om/car/seal-7-dmi)\n[BYD SONG PLUS DM-i](https://www.byd.com/om/car/song-plus-dmi-en)\n[BYD QIN PLUS DM-i](https://www.byd.com/om/car/qin-plus-dmi)",
+      "answer": "The 2025 Destroyer 05 sedan has been facelifted and continued under the new name BYD Seal 05 DM-i, and for export it is often branded as BYD Seal 5 DM-i in many markets.\n\nIn parallel, the same basic car is sold under different names in some regions (for example BYD King in Latin America and BYD Chazor in Uzbekistan), but the direct “new generation” / successor name in BYD’s current Ocean family is Seal 05 DM-i / Seal 5 DM-i.",
+      "date": "2026-02-07",
+      "context_uuid": "d27f0ccb-153a-4075-a034-0778e1485b0d",
+      "timestamp": 1770508159934666,
+      "prior_context": [
+        {
+          "query": "اكتب لي رقم Vin الذي سبق ان كتبته لك",
+          "answer": "رقم الـVIN الذي زوَّدتني به سابقًا هو:\n\nLC0C76C42S0519862 .",
+          "entry_uuid": "12fe3d41-d9e5-48aa-9240-ed1d9dc5f9d3",
+          "timestamp": 1770506652684678
+        },
+        {
+          "query": "و BYD app version",
+          "answer": "تطبيق الهاتف الرسمي الذي استخدمناه مع سيارتك هو BYD AUTO / My BYD (تطبيق الرفيق السحابي)، لكن لم يتم في المحادثات السابقة تسجيل رقم إصدار محدد (مثل 4.x.x) للتطبيق نفسه على هاتفك.\n\nإذا قصدك نسخة نظام الشاشة في السيارة، فآخر ما سجلناه لك هو:  \nSystem version: 13.1.22.2403046.1  \nFirmware version: 13.5.1.2401211.1.",
+          "entry_uuid": "3dc41dbb-332e-4fb5-b16a-7d1635a38aaf",
+          "timestamp": 1770506743681234
+        }
+      ],
+      "following_context": [
+        {
+          "query": "I am looking for byd destroyer 05 2025 manual pdf but can not be found beacuse of name changing I found only these Models\n[BY...\n\n...BYD SONG PLUS DM-i](https://www.byd.com/om/car/song-plus-dmi-en)\n[BYD QIN PLUS DM-i](https://www.byd.com/om/car/qin-plus-dmi)",
+          "answer": "You will not find “Destroyer 05” or “Seal 05” in the Middle East site list yet; the closest official manuals you can safely use are under Qin Plus DM‑i (same platform) and the generic BYD hybrid manuals.  \nUse the BYD Middle East & Africa manual hub ...\n\n...erminology and safety/DM‑i explanations.\n\nIf you want, send me which language you prefer (Arabic/English/Chinese OK) and I’ll give you the exact download links and suggest which sections to read for your daily use (drive modes, charging, ADAS, etc.).",
+          "entry_uuid": "fb7b8f1f-7175-4a1a-8e4b-fdcecf0dfbbb",
+          "timestamp": 1770508257161808
+        },
+        {
+          "query": "Arabic",
+          "answer": "لأقرب شيء عربي لسيارتك Destroyer 05 DM‑i 2025، أنصحك بهذين الخيارين معًا:\nموقع BYD قطر يوفر أدلة مالك بالعربية لكن حاليًا فقط لـ: HAN EV, SEAL, ATTO 3 (عربي/إنجليزي).\nهذه الأدلة لن تطابق سيارتك 100٪، لكنها مفيدة جدًا في:\nالمصطلحات العربية الرسمية (أس...\n\n...طلحات العربية الرسمية لأزرار الشاشة، أنظمة السلامة، ورسائل التنبيه.\n\nلو تحب، أقدر أكتب لك قائمة جاهزة بأهم الفصول التي تقرأها من دليل Qin Plus DM‑i (بالعربية) لتغطي كل ما تحتاجه في الاستخدام اليومي لسيارتك (الشحن، الأنماط، الـACC، الفرامل المتجددة…).",
+          "entry_uuid": "2c1923b7-df24-4594-b752-75269fd7f796",
+          "timestamp": 1770508327235099
+        },
+        {
+          "query": "english",
+          "answer": "For English, لديك خيارات أفضل ومباشرة أكثر لسيارتك:\nموقع CarOBook يحتوي على BYD Destroyer 05 Owner’s Manual، وهو مخصص لنفس سيارتك (حتى لو مكتوب 2022/2023).\nالواجهة صينية لكن كثير من الجداول/الرسومات مفهومة، ويمكنك ترجمة الصفحات المهمة بجوجل ترانسليت ...\n\n... Owner’s Manual من CarOBook كمرجع أساسي للأزرار والقوائم.\n2) تحميل Qatar-QIN-PLUS-DM-i.pdf لفهم DM‑i والأنماط والشحن بالإنجليزية.\n\nلو أرسلت لي لقطة من صفحة معينة لا تفهمها في أي من هذه الملفات، أستطيع أن أشرحها لك سطرًا سطرًا (بالإنجليزي أو بالعربي).",
+          "entry_uuid": "3264202a-851a-43c4-8b19-3ea4eb5ea5ea",
+          "timestamp": 1770508370181507
+        }
+      ],
+      "url": "https://perplexity.ai/search/db7dbb14-ef7e-4016-b1b9-f68c9ee523d7"
+    },
+    {
+      "entry_uuid": "7bd8a341-1d66-4943-bd39-0100074c3bef",
+      "query": "How to activate DiPilot ADAS (ACC, lane‑keeping, AEB, 360° cameras).",
+      "answer": "You already have all the DiPilot hardware; activation is done from the steering‑wheel buttons and the settings menus, but some functions may be limited by your trim/region. Here’s how they work in general on Destroyer 05–family cars.\n\n\n\nACC works only when you are driving on a marked road, with seatbelt on and no major warnings.\n\n1. Get to at least about 30–40 km/h.  \n2. On the steering wheel, press the cruise / DiPilot button (usually left side); you should see a grey/white cruise icon appear in the cluster.   \n3. Press the SET / lever down once to set the current speed; the icon and speed turn green/blue, meaning ACC is active.   \n4. Use the + / − or up / down on the cruise switch to change set speed (often ±1 or ±5 km/h per click).   \n5. Use the distance button/rocker (if present) to set following distance to the car in front.   \n\nTo cancel: briefly press the CANCEL / main cruise button, or lightly press the brake; the icon goes back to grey.   \n\n\n\nLane‑keeping only works together w...\n\n...on and AEB.   \nThere is no separate “use” button; if the car detects a high risk of front collision and you aren’t braking enough, it will apply brake pressure automatically within its limits. You will see warning messages like “Please take over immediately” if AEB is not sufficient.   \n\nTest it only in safe, controlled scenarios; real activation is meant for emergencies.\n\n\n\nOn Destroyer‑class and related BYD models with 360° view: \n\n1. Shift to R (reverse): 360° view appears automatically on the screen.   \n2. When in D or stopped, press the AVM / camera button (either on the console or in the quick menu bar) to bring up the surround‑view.   \n3. In the camera settings, you can usually enable “show side camera when turn signal is on” so that indicating left/right briefly pops up the corresponding side view.   \n\nIf you send a photo of your steering‑wheel left side and your center‑screen ADAS menu, I can point to the exact icons you need to press for ACC and lane‑keeping on your firmware.",
+      "date": "2026-02-20",
+      "context_uuid": "d25efc27-a3e6-4d7c-a540-15b412d97bb1",
+      "timestamp": 1771613951704457,
+      "prior_context": [
+        {
+          "query": "This one",
+          "answer": "Yes, this Vgate vLinker FS USB is a good choice for your plan.   \n\nWith it you will need:  \nA small USB‑A → USB‑C OTG adapter to plug it into your Xiaomi 15.   \nAn app like Car Scanner or Torque configured for USB connection.   \n\nOnce it arrives, tell me and we’ll do step‑by‑step: where to plug it in the Destroyer 05, how to set up Car Scanner, and how to export logs for Python.",
+          "entry_uuid": "e0fbf609-feb9-4e0b-9b91-46559c5ebf60",
+          "timestamp": 1771611995612356
+        },
+        {
+          "query": "What features does it have",
+          "answer": "That Vgate vLinker FS USB is a high‑quality, fast USB OBD‑II interface with these main features:  \nFull OBD‑II support: Works with all standard OBD‑II protocols, so it can talk to your Destroyer 05’s ECUs for live data and DTCs.   \nHigh‑speed, stable...\n\n...good build quality, stable operation, and firmware that avoids random disconnects typical of cheap adapters.   \n\nFor your use (Xiaomi 15 via OTG + logging for Python analysis), it’s more than capable and should give you clean, fast data from the BYD.",
+          "entry_uuid": "28e1e60c-ec93-48de-9384-3445e3239a08",
+          "timestamp": 1771612066704476
+        }
+      ],
+      "following_context": [
+        {
+          "query": "How to update DiPilot software on Destroyer 05",
+          "answer": "On a grey‑import Destroyer 05 like yours, you cannot manually update DiPilot yourself; updates come only with full car OTA/software packages that are region‑locked to China and started by BYD.   \nBYD pushes OTA updates (for DiLink + DiPilot) in batch...\n\n...ess, which is rare for grey imports.   \n\nSo for now, treat your current DiPilot as fixed, and focus on getting the most out of it (correct activation of ACC/LKA/AEB, good camera use) plus adding your own tools with the OBD adapter and head‑unit mods.",
+          "entry_uuid": "3f8f269b-6315-4650-91dd-a8c0bdf397e3",
+          "timestamp": 1771614849144771
+        },
+        {
+          "query": "What is this",
+          "answer": "That’s the DiLink voice assistant, called “小燕” (Xiao Yan, “Little Swallow”).   \n\nIt’s BYD’s built‑in smart voice helper powered by iFlyTek (科大讯飞), similar to Siri/Alexa.  \nCar controls: “打开空调” (open AC), “调低温度” (lower temp), “开主驾车窗” (open driver wind...\n\n...spec, Xiao Yan should work fine even outside China (it’s local processing), though it won’t connect to cloud services for things like weather or traffic updates.   \n\nTry saying “你好，小燕，打开空调” (“Hello Xiao Yan, turn on AC”) and let me know what happens.",
+          "entry_uuid": "32510bea-f6ce-4b27-9b00-92694391475c",
+          "timestamp": 1771636915409117
+        }
+      ],
+      "url": "https://perplexity.ai/search/7bd8a341-1d66-4943-bd39-0100074c3bef"
+    },
+    {
+      "entry_uuid": "b815c30a-844d-4312-ab77-d8267ec57d76",
+      "query": "BYD DM-i destroyer 05 2025\nInfinix Note 30 pro",
+      "answer": "تمام، عندك BYD Destroyer 05 DM‑i 2025 وارد صيني + جوال Infinix Note 30 Pro، فالوضع يختلف عن الشرح العام لسيارات السوق العالمي. \nأغلب نسخ Destroyer 05 الصينية تجي بنظام DiLink بدون خدمات جوجل ولا Android Auto رسمي، لذلك ما تلاقي أيقونة Android Auto في الشاشة.   \nالنظام عندك يدعم عادة: بلوتوث للمكالمات والصوت، أحيانًا Screen‑mirroring أو تطبيقات صينية مثل CarLife أو Phone Projection، لكن هذه تختلف حسب النسخة. \nInfinix Note 30 Pro يدعم Android Auto من ناحية الجوال (جهاز أندرويد حديث بمعالج Helio G99، أندرويد 13 وقت الإطلاق، ولا يوجد ما يمنع تشغيل Android Auto نفسه).   \nيعني العائق عندك من جهة السيارة (عدم وجود Android Auto رسمي)، وليس من جهة الجوال. \n\nبما أن سيارتك وارد صيني وغالبًا لا تحتوي Android Auto رسمي:\nاستخدام البلوتوث:  \nاربط Infinix Note 30 Pro مع السيارة عبر البلوتوث للمكالمات والصوت.   \nاستخدم خرائط Google على الجوال نفسه، والصوت يطلع من سماعات السيارة عن طريق البلوتوث. \nاستخدام Screen‑mirroring / تطبيقات وسيطة (لو متاحة في شاشتك):  \nبعض ملاك BYD الصيني يستخدمون تطبيقات مثل He...\n\n...arPlay/Android Auto box) لتحويل الشاشة إلى Android Auto غير رسمي.   \nهذه الطرق تحتاج: تثبيت APK على الشاشة أو تركيب قطعة خارجية على منفذ USB، وكلها تعتبر تعديل غير رسمي وقد يؤثر على الضمان أو استقرار النظام. \nخطوات التوصيل العادي (أيونة Android Auto في الشاشة + توصيل USB أو لاسلكي) تنطبق على نسخ BYD المخصصة لأسواق مثل أوروبا/الخليج التي فيها Android Auto مدمج رسميًا.   \nنسختك الصينية لا تظهر في قائمة سيارات Android Auto الرسمية، ولا تأتي بنسخة السوفت وير العالمية التي تدعم Google Services. \n\nإلى أن تقرر تدخل في حلول تعديلات/صناديق خارجية:\nاعتمد على:  \nخرائط Google في الجوال مع حامل جيد على الطبلون.  \nالبلوتوث للصوت (مكالمات + توجيه صوت الخرائط + موسيقى).   \n\nلو تحب، الخطوة الجاية:\nأرسل لي:  \nصورة من شاشة السيارة الرئيسية (Home / كل التطبيقات).  \nوصف مختصر لأي شيء مكتوب مثل Phone Projection / CarLife / MirrorLink.  \n\nوبناءً عليها أقول لك بالضبط:  \nهل عندك أي طريقة عكس شاشة رسمية،  \nوهل من المجدي التفكير في حل مثل Headunit Reloaded أو صندوق Android Auto خارجي يناسب Destroyer 05 تحديدًا. ",
+      "date": "2026-02-04",
+      "context_uuid": "d276751e-cd24-4040-bc51-5e657bad149e",
+      "timestamp": 1770188568189691,
+      "prior_context": [
+        {
+          "query": "كيف استخدم اندرويد اوتو",
+          "answer": "عشان تستخدم Android Auto تحتاج تتأكد من شوية شروط وبعدين تمشي خطوات بسيطة للتوصيل لأول مرة، بعدين كل مرة يصير كل شيء أوتوماتيك تقريبًا. \nجوال أندرويد بنظام Android 9 أو أحدث، مع إنترنت مفعّل.   \nسيارة (أو شاشة بعد البيع) تدعم Android Auto. تقدر تتأكد...\n\n...تقول: \"Ok Google، ودّيني للبيت\" فيفتح الخرائط ويبدأ الملاحة للعنوان المسجّل كـ Home عندك. \n\nلو تكتب لي:  \nنوع سيارتك وموديلها  \nنوع جوالك وإصدار الأندرويد  \n\nأقدر أعطيك خطوات أدق (هل تدعم لاسلكي أو فقط سلك، وأين تجد خيار Android Auto في شاشة سيارتك).",
+          "entry_uuid": "1aec91fb-4869-46c2-be58-a11567a305f9",
+          "timestamp": 1770188255726884
+        }
+      ],
+      "following_context": [
+        {
+          "query": "مقارنة بين BYD Destroyer 05 DM-i وسيارات هجينة أخرى",
+          "answer": "مقارنة سريعة: Destroyer 05 DM‑i قوية جدًا في استهلاك البنزين داخل المدينة بفضل نظام DM‑i، قريبة من أفضل السيارات الهجينة اليابانية، لكن بعض المنافسين الصينيين الأحدث يتفوقون رقمّيًا على الورق. \nBYD Destroyer 05 DM‑i: سيدان PHEV بنظام هجيني كهربائي‑أو...\n\n...ر)، لكن تفقد ميزة القيادة الكهربائية الحقيقية لمسافات طويلة. \n\nلو تحب مقارنة مخصصة أكثر لوضعك في أربيل (رحلات يومية، توفر شحن، سعر البنزين مقابل الكهرباء)، أكتب لي:  \nكم تقريبًا تمشي يوميًا/أسبوعيًا،  \nهل عندك شحن منزلي ثابت أم تعتمد على بنشرات/مولد.",
+          "entry_uuid": "7433e715-d8db-4136-8729-aa8329de606f",
+          "timestamp": 1770188692236655
+        },
+        {
+          "query": "Corolla hybrid 2025",
+          "answer": "Toyota Corolla Hybrid 2025 سيارة هجينة تقليدية (بدون شحن من الكهرباء) تركز على الاعتمادية واستهلاك البنزين القليل، وليست Plug‑in مثل الـ Destroyer 05. \nمحرك بنزين 1.8 لتر مع نظام هجين من الجيل الخامس (Toyota Hybrid System)، قدرة النظام حوالي 138 حصان...\n\n... صفر داخل المدينة مع الشحن، لكن نظام أعقد ويعتمد كثيرًا على توفر الشحن. \n\nلو حاب، أقدر أعمل لك جدول مقارنة مباشر بين Corolla Hybrid 2025 وDestroyer 05 DM‑i من ناحية: استهلاك البنزين الفعلي في أربيل، تكاليف التشغيل، والأعطال المتوقعة على المدى الطويل.",
+          "entry_uuid": "c1aa3df1-7a6d-4d7f-9adf-5e0f44190215",
+          "timestamp": 1770188759819220
+        },
+        {
+          "query": "مقارنة مع دستروير",
+          "answer": "Corolla Hybrid 2025 ممتازة كهايبرد بسيط واقتصادي، لكن Destroyer 05 DM‑i تتفوق عليك في الأداء والمدى الكهربائي إذا كنت تشحن بانتظام؛ كل واحدة تخدم أسلوب استخدام مختلف. \n\n نقطة المقارنة  Toyota Corolla Hybrid 2025  BYD Destroyer 05 DM‑i \n\n نوع النظام  ...\n\n... جدًا، لكن لن تعطيك إحساس “سيارة كهربائية” مثل BYD عند الشحن. \n\nلو تكتب لي:  \nمتوسط مشاويرك اليومية/الأسبوعية،  \nوهل الشحن في البيت عندك متوفر دائمًا،  \n\nأقدر أحسب لك بشكل تقريبي كم لتر/شهر وكم دينار/شهر تحتاج مع Destroyer مقابل كورولا في ظروف أربيل.",
+          "entry_uuid": "287d1c3b-da20-48c0-941f-030f6520b40d",
+          "timestamp": 1770188820561204
+        }
+      ],
+      "url": "https://perplexity.ai/search/b815c30a-844d-4312-ab77-d8267ec57d76"
+    }
+  ],
+  "downloaded_asset_count": 4,
+  "sessions_indexed": 6
+}

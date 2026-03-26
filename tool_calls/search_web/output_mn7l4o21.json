@@ -1,0 +1,87 @@
+{
+  "images": [],
+  "is_error": false,
+  "is_partial": false,
+  "results": [
+    {
+      "title": "Experience the adventure of a lifetime with BYD's DiLink 4.0 ...",
+      "url": "https://www.facebook.com/BYDGlobal/posts/experience-the-adventure-of-a-lifetime-with-byds-dilink-40-through-its-high-tech/159102040045790/",
+      "domain": "www.facebook.com",
+      "snippet": "The flagship version features a 160kW motor (peak ... features BYD's largest adaptive rotating screen (15.6 inches) among their SUV models.",
+      "date": "2022-08-22T00:00:00",
+      "summary": "The flagship version features a 160kW motor (peak ...\nfeatures BYD's largest adaptive rotating screen (15.6 inches) among their SUV models."
+    },
+    {
+      "title": "How to Sideload (install 3rd party APP) for Dilink5? : r/BYD - Reddit",
+      "url": "https://www.reddit.com/r/BYD/comments/1hd8jdi/how_to_sideload_install_3rd_party_app_for_dilink5/",
+      "domain": "reddit",
+      "snippet": "Start off like the comment above but name the folder “Third Party Apps” afterwards make sure to format the drive to FAT32, install all your APKs.",
+      "date": "2024-12-13T00:00:00",
+      "summary": "### How to Sideload (install 3rd party APP) for Dilink5?\nTo sideload a third-party app on the Dilink5, follow these steps:\n1. **Enable Unknown Sources**: Go to the device's settings, navigate to the security section, and allow installations from unknown sources.\nThis permission is necessary for installing apps outside of the official app store.\n2. **Download the APK File**: Find a reliable source to download the APK file of the app you want to install.\nEnsure that the source is trustworthy to avoid any security risks.\n3. **Transfer the APK to Dilink5**: If you downloaded the APK on another device, transfer it to the Dilink5 using a USB drive or by connecting both devices over a network.\n4. **Install the APK**: Locate the APK file using a file manager on your Dilink5.\nClick on the file to start the installation process.\nFollow the on-screen prompts to complete the installation.\n5. **Launch the App**: Once installed, you can find the app in your app drawer.\nOpen it and enjoy the new features it offers.\nMake sure to regularly check for updates for the app to ensure optimal performance and security.\n**votes: 3**\n**comments: 6**\n…\n-  **Youmanwill**\nStart off like the comment above but name the folder “Third Party Apps” afterwards make sure to format the drive to FAT32, install all your APKs, I would recommend GBox because YouTube by itself won’t work.\nMake sure the car is off then insert the drive then turn on the car, you should get a screen that asks for what apps you wish to install then a password request, I do not know the password as it varies.\nIt should start downloading after the password is typed\n**votes: 1**\n-  **masmashu**\nInsert any USB flash drives and create a folder titled \"Third Party Apps\" followed by your country code.\nPlace the APK files within that folder.\nThe password for access is BYD6215F.\n**votes: 0**\n-  **DeliciousWill135**\nDid you try that with Dilink5 ?"
+    },
+    {
+      "title": "How to run Android Auto without Google apps - e/OS community",
+      "url": "https://community.e.foundation/t/how-to-run-android-auto-without-google-apps/64578",
+      "domain": "/E/Os Community",
+      "snippet": "Activate USB debugging on your phone's developer settings. Connect to your phone in terminal with adb devices and install all these three apps with a command.",
+      "date": "2024-12-28T00:00:00",
+      "summary": "div\nI managed to make Android Auto work without the Google apps.\nAll credits of this goes to **dylanderdaly** and **sn-00-x** in Github who are behind these stubs.\nInstead of Google Maps, Google App and Google TTS I decided to try these stubs before installing the Android Auto app.\nDownload these to your computer:\nGoogle App stub\nGoogle Maps stub if it doesn’t start to download, click on **View raw**\nGoogle TTS stub if it doesn’t start to download, click on **View raw**\nActivate USB debugging on your phone’s developer settings.\nConnect to your phone in terminal with\n`adb devices`\nand install all these three apps with a command:\n`adb install name_of_the_app.apk`\nAfter this install Android Auto normally as guided in the official instructions.\nYou might even succeed by uninstalling Google apps and installing stubs with adb.\n**Regain your privacy!\nAdopt /e/OS the deGoogled mobile OS and online services**\ngreat, thanks a lot.\nThis also works for me without root, at least partly.\nIt didn’t work right away though.\nI had to go to the android settings and search for android auto and then open the Android auto settings.\nOnly then a connection was automatically established between the phone and the car radio.\nAlso the apps didn’t want to work right away.\nI had activated the Android auto development settings and checked “unknown sources”\nThen I installed the VLC app from aurora store.\nI had to disconnect the usb-cable and reconnect.\nThen the app appeared on the app launcher on the car radio and it worked.\nNot sure if the development settings + unknown resources is required, but I’ve read it is in order to get some apps into the launcher.\n…\nWe are on the same boat when it comes to navigation apps.\n...\nMagic Earth behaves the same way for me, only **no new messages is** shown.\nThe funny part of this is that when I connect my phone to my computer and run AA emulator in Android Studio, all the 3rd party apps are visible.\n...\nI even tried the Headunit Reloaded trial and it also shows in self service mode all the 3rd party apps but again when I connect the phone to my car, only few apps are visible.\n...\nMaybe it works installing the APK’s with the King Installer it seems to work also without root\n…\nit would be nice to have this feature build into /e/OS.\n...\nIt may work but for me it makes no sense - first we install degoogled /e/OS then we install Google app and Gmaps It would be nice to have some working verstion of AndroidAuto built into the system and be able to use it with some other map app than Gmaps… I think nowadays car connectivity is a standard and absolute minimum for phone OS… I have some other applications problems but I can live without them, but AA - if I won’t solve it in few month I will consider switching back to Android…\nif AA is absolutely essential to you, you could check out GrapheneOS and AA.\nI will just keep using my smartphone for navigation, if AA and /e/OS doesn’t work yet.\nGraphene’s compatibility list covers just Pixel devices, so it cannot be used…\nYou can get magic earth work on android auto if you uninstall preinstalled via pm tool.\nAfter that install the offical magic earth via app lounge.\nIts just compatible with the officall google play store version/apk."
+    },
+    {
+      "title": "BYD DiLink | BYD Nigeria",
+      "url": "https://www.byd.com/ng/support/dilink",
+      "domain": "BYD",
+      "snippet": "BYD DiLink platform is equipped with Android intelligent system, which ... The screen can be rotated by voice control to meet with users' demands.",
+      "date": null,
+      "summary": "(Depending on the model and features of your vehicle, the availability of the services may vary.)\nBYD DiLink platform is equipped with Android intelligent system, which brings smarter,safer and more comfortable driving experience to vehicle owners.\n## More comfortable driving\n- Voice Recognition based human-computer interaction allows users to control the car more conveniently.\n- Providing multiple and customized sound effects for users.\n- Navigation apps designed for vehicles, making it easier for living trips.\n- Interconnection by WI-FI, BT and LTE makes smarter travels.\n## Smarter entertainment\n- It is the world’s first rotatable PAD.\nThe screen can be rotated by voice control to meet with users’ demands.\n-\n- - Split screen allows to put different apps in the right-side and left-side screens, to meet users needs on driving and entertainment simultaneously.\n-\n- - Users can choose different UI modes.\n...\n- In-vehicle devices can be controlled by touching screen and voice recognition, realizing a starter control and more effective interaction.\n- Cloud service facilitates vehicle management by remote control.\n- Lifelong free OTA enables the vehicle to realize consistent improvements.\n## Safer driving\n- The customized smart vehicle control system enables users to control in-vehicle devices and check vehicle status by touching screen and voice recognition, providing more comfortable driving experiences for users.\n-\n-\nUsers can choose from light mode, dark mode, and auto mode by their own."
+    },
+    {
+      "title": "[BYD] Sideload apps to... - YouTube",
+      "url": "https://www.youtube.com/watch?v=XnV7kcTjUdo",
+      "domain": "youtube",
+      "snippet": "Share your videos with friends, family, and the world.",
+      "date": "2023-07-14T00:00:00",
+      "summary": "If you are on 2310 or newer, you will have to downgrade first, before you can sideload.\n...\n{ts:3} hi everyone this is just a short video on how to use the USB method to side\n{ts:10} load Android applications to your byd803 it's incredibly simple all you need is obviously a PC a USB using the USB a\n{ts:20} connector internet to download applications and obviously API the 803 so let's get started first you plug in\n…\n{ts:49} start format for my complete call go into it right make sure it's empty don't put anything else in there no folders no\n{ts:55} files you go new folder third party apps okay you have to name it third party apps it's not third-party app it's not\n{ts:66} third parties app it's third party apps if there's any spelling mistakes this will not work okay third party apps\n{ts:74} now within the third party apps folder you want to put in all the uh applications that you want to use so for\n{ts:83} example I'm just going to copy all this over Android applications and in the dot APK\n{ts:92} extension okay so copy all of your APK files over so this includes if you've watched my other videos this includes\n{ts:100} like Aurora store package installer unlocked and codes like Gbox includes like\n{ts:107} I don't know what else you would use um App Manager for example if you've watched my byd themes video it's the byd\n{ts:114} theme store um yeah so just any of your dot APK stuff\n…\n{ts:249} it in the video description but pyd 6125f is what's the latest software using\n{ts:255} okay you wanna know it's done right because you press OK you'll build here and then you just press another you want\n{ts:262} to install however many apps you want to install I'll just install this Dev check.apk for myself"
+    },
+    {
+      "title": "ac8227l help please. i can't run google play services - XDA Forums",
+      "url": "https://xdaforums.com/t/ac8227l-help-please-i-cant-run-google-play-services.4728380/",
+      "domain": "XDA Forums",
+      "snippet": "I have an Android 10 car radio. When I install anything related to Google, I cannot open it. I can't access anything related to Google services, ...",
+      "date": "2025-04-01T00:00:00",
+      "summary": "I have an Android 10 car radio.\nWhen I install anything related to Google, I cannot open it.\nI can't access anything related to Google services, from the Google Store or YouTube.\nIt says there's a problem with Google services.\nAlso, nothing related to Google appears in the settings As shown in the picture.\nIs there a way to upgrade the system?"
+    },
+    {
+      "title": "BYD releases Dilink 4.0 5G system with five outstanding features",
+      "url": "https://en.eeworld.com.cn/news/qcdz/eic546776.html",
+      "domain": "en.eeworld.com.cn",
+      "snippet": "The UI interface has been completely optimized and upgraded, with a stronger sense of technology, and the APP and function icons are more ...",
+      "date": "2021-09-02T00:00:00",
+      "summary": "The UI interface has been completely optimized and upgraded, with a stronger sense of technology, and the APP and function icons are more ..."
+    },
+    {
+      "title": "Possible Way to Add CarPlay to Chinese Version of BYD DiLink 4.0 ...",
+      "url": "https://xdaforums.com/t/possible-way-to-add-carplay-to-chinese-version-of-byd-dilink-4-0-custom-rom-for-qualcomm-qcm6125-pcb.4699831/",
+      "domain": "XDA Forums",
+      "snippet": "It has Android Auto but no Carplay (wired nor wireless). I'm able to sideload apps and have updated the firmware to a version 202309 (from ...",
+      "date": "2024-10-27T00:00:00",
+      "summary": "From what I’ve gathered, the head unit hardware in this model runs on the Qualcomm QCM6125 PCB, which should theoretically be capable of supporting CarPlay, Android Auto, and other features with the right software.\nIt seems possible that building a custom ROM specifically for the Qualcomm QCM6125 could add:\n• Apple CarPlay and Android Auto support\n• Multi-language support for the instrument cluster (IVI) and infotainment interface\n• Wireless casting and other Android-based connectivity features\n• Potentially more internationalization options and additional app compatibility\nI’m wondering if anyone here has experience with developing custom ROMs for the DiLink system or for similar Android-based head units using the Qualcomm QCM6125 platform."
+    },
+    {
+      "title": "Android 12 head unit Google Play Services update issue - Facebook",
+      "url": "https://www.facebook.com/groups/AndroidDevelopers4/posts/3791026247777637/",
+      "domain": "www.facebook.com",
+      "snippet": "My head unit android 12 does not want to update Google Play Services preventing google maps to work. I have tried a lot of things like ...",
+      "date": "2024-11-10T00:00:00",
+      "summary": "My head unit android 12 does not want to update Google Play Services preventing google maps to work.\nI have tried a lot of things like ..."
+    },
+    {
+      "title": "BYD DiLink features - YouTube",
+      "url": "https://www.youtube.com/watch?v=QmEgx2FI5z8",
+      "domain": "youtube",
+      "snippet": "BYD DiLink platform is equipped with Android intelligent system, which brings smarter, safer and more comfortable driving experience to BYD ...",
+      "date": "2024-06-10T00:00:00",
+      "summary": "BYD DiLink platform is equipped with Android intelligent system, which brings smarter, safer and more comfortable driving experience to BYD drivers."
+    }
+  ]
+}
